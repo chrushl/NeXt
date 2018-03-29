@@ -11,9 +11,10 @@ public class PlayerController : MonoBehaviour {
     private bool faceingRight = true;
     float groundRadius = 0.2f;
     public LayerMask whatIsGround;
+    public Vector2 respawnpoint;
 	// Use this for initialization
 	void Start () {
-		
+        respawnpoint = transform.position;
 	}
 	
 	// Update is called once per frame
@@ -48,5 +49,13 @@ public class PlayerController : MonoBehaviour {
         theScale.x *= -1;
 
         transform.localScale = theScale;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Falldetector")
+        {
+            transform.position = respawnpoint;
+        }
     }
 }
