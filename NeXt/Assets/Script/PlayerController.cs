@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
     public float maxSpeed = 10f;
-    public float jumpForce = 700f;
+    public float jumpForce = 350f;
     bool grounded = false;
     public Transform groundCheck;
     private bool faceingRight = true;
