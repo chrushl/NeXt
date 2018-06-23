@@ -15,7 +15,7 @@ Diese Diplomarbeit befasst sich mit der Entwicklung des Prototyps: NeXt. Das Pro
 \section{Metainformationen}
 \subsection{Team}
 \begin{table}[H]
-		\caption{Team}
+	
 	\renewcommand{\arraystretch}{1.5}
 	\begin{tabular}{|p{8cm}|p{8cm}|}
 		\hline
@@ -32,6 +32,7 @@ Diese Diplomarbeit befasst sich mit der Entwicklung des Prototyps: NeXt. Das Pro
 		Lukas Vogel & Leitner Michael\\
 		\hline
 	\end{tabular}
+	\caption{Team}
 \end{table}
 \subsection{Betreuer}
 Seitens der Schule hat sich Herr Claudio Landerer bereiterklärt unser Projekt zu Betreuen. Er brachte uns in seinem Unterricht das Programmieren bei. 
@@ -55,15 +56,17 @@ Unser Partner während der Diplomarbeit war die Firma ClockStone Softwareentwick
 	\caption{Mag. Claudio Landerer}
 \end{figure}
 \subsection{Ansprechpartner}
+
 \section{Vorerhebungen}
 \subsection{Projektzieleplan}
+\def \currentAuthor {Michael Leitner} %so kann jederzeit der Autor geändert werden -> wird in der Fusszeile angezeigt.
 Projektziele-Hierarchie - SMART
 \subsection{Projektumfeld}
-\subsubsection{Stakeholder}
+\def \currentAuthor {Lukas Vogel} %so kann jederzeit der Autor geändert werden -> wird in der Fusszeile angezeigt.
+\subsubsection{Stakeholder-Analyse}
 In der Tabelle \ref{Stakeholder-Analyse} unten ist das Ergebnis unserer Stakeholder-Analyse zu sehen.
 \begin{table}[H]
-	\caption{Stakeholder-Analyse}
-	\label{Stakeholder-Analyse}
+		
 	\renewcommand{\arraystretch}{1.5}
 		\begin{tabular}{|p{3cm}|p{6cm}|p{3cm}|p{1.5cm}|p{1.5cm}|}
 			\hline
@@ -82,9 +85,11 @@ In der Tabelle \ref{Stakeholder-Analyse} unten ist das Ergebnis unserer Stakehol
 			Mitschüler & Manche Klassenmitglieder spielen gerne am Computer in der Freizeit	& neutral bis positiv & 1 & 1\\
 			\hline
 		\end{tabular}
+\caption{Stakeholder-Analyse}
+\label{Stakeholder-Analyse}
 	\end{table}
 Die Einschätzung der Einstellung in Tabelle \ref{Stakeholder-Analyse} geht von sehr negativ über neutral bis zu sehr positiv. Der Einfluss wiederum wird mit einer Skala von 1-10 beschrieben, wobei 1 keinen bzw. sehr wenig Einfluss repräsentiert und 10 sehr starken. Auch die Nähe zum Projekt wird von 1-10 skaliert, 1 repräsentiert weit entfernt vom Projekt und 10 sehr nah.
-
+\subsubsection{Stakeholder-Diagramm}
 \begin{figure}[H]
 	\centering
 	\label{Stakeholder-Diagramm}
@@ -95,9 +100,47 @@ Die Einschätzung der Einstellung in Tabelle \ref{Stakeholder-Analyse} geht von 
 
 
 \subsection{Risikoanalyse}
-\begin{itemize}
-	\item Risikomatrix
-\end{itemize}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=16cm,height=8cm]{images/Risiko-Matrix.png}
+	\caption{Matrix zur qualitativen Einordnung von Risiken --> Die Matrix wurde in vier Kategorien eingeteilt. Die Risiken werden dann zur jeweils passende Kategorie ein zugeordnet um diese dann besser einschätzen zu können.\cite[S. 141 -142]{SystemplanungundProjektmanagement-Lehrbuch}}
+\end{figure}
+
+Folgende Risiken sind aus der Projektumfeld-Analyse hervorgegangen und werden in Tabelle \ref{Risiko} beschrieben, bewertet und Maßnahmen gesetzt.
+
+	\begin{table}[H]
+			\centering
+		\renewcommand{\arraystretch}{1.5}
+		\begin{tabular}{|p{3cm}|p{5cm}|p{2cm}|p{5cm}|}
+			\hline
+			\textbf{Risiko} & \textbf{Beschreibung} & \textbf{Bewertung} & \textbf{Maßnahme} \\
+			\hline
+			Motivation des Teams & Die Motivation des Teams ist sehr wichtig. Wenn die sie sinkt, verringert sich auch die Arbeitsmoral, dies führt zu weniger Produktivität, was wiederum zum totalen Stillstand der Diplomarbeit führen kann. & A & Um die Wahrscheinlichkeit zu reduzieren sind am Anfang möglichst schnell Erfolgserlebnisse zu erzielen, dies steigert die Motivation sehr gut. Zusätzlich hilft es bei Problemen welche die Arbeitsmoral herabsetzen, nicht Stunden lang am Problem zu sitzen, sondern entweder an etwas Anderem arbeiten oder jemanden um Hilfe zu bitte.\\
+			\hline
+			Zufriedenheit des Betreuers & Herr Landerer ist der Betreuer des Projekts und wenn er nicht mit unseren Leistungen zufrieden ist kann er das Projekt stoppen. & B2 & \begin{itemize}
+				\item laufende Berichterstattung
+				\item laufender Fortschritt im Projekt
+				\item bei Problemen oder Verzögerungen mit ihm reden
+			\end{itemize}\\
+		\hline
+		Zufriedenheit des Partners & Die Firma ClockStone Softwareentwicklung GmbH soll auch wie der Betreuer mit dem Fortschritt und dem Projekt an sich zufrieden sein, da auch sie im extrem Fall das Projekt zum Stopp zwingen könne. & B2 & Auch hier kann eine laufende Berichterstattung und vor allem Meetings mit dem Partner helfen. Des weiteren ist zu beachten, dass auch ihr Unternehmen Spiele entwickelt, dadurch können sie bei Problemen kontaktiert werden, was zu einer schnelleren Lösungsfindung führen kann und somit auch ihren Wünschen entspricht.\\
+		 \hline
+		\end{tabular}
+	\end{table}
+\newpage
+\begin{table}[H]
+	\centering	
+		\renewcommand{\arraystretch}{1.5}
+	\begin{tabular}{|p{3cm}|p{5cm}|p{2cm}|p{5cm}|}
+		\hline
+		Zufriedenheit des Direktors & Herr Walch ist auch für die Abnahme des Projekts zuständig und ist bei den Präsentation anwesend. Wenn das Projekt seinen Anforderungen nicht entspricht kann er das Projekt abbrechen. Darüber hinaus  ist er bei den Präsentationen der Diplomarbeit anwesend, dort werden von den allen Lehrern auch Fragen zum Projekt gestellt, wenn diese nicht eine fachlich kompetente Antwort bekommen, kann das einen negativen Einfluss auf das Projekt haben. & B2 & Um dieses Risiko zu abzuschwächen ist es besonders wichtig auf die Fragen und Anmerkungen von Herrn Walch einzugehen. Deswegen ist es essentiell sich gut auf die Präsentationen vor zu bereiten.\\
+		\hline
+		Zufriedenheit der anderen Lehrpersonen & Wie Herr Walch, sitzen auch andere Lehrpersonen während der Personen dabei und können Fragen zum Projekt stellen. & C & Auch hier gilt wieder das man auf die Präsentationen gut vorbereitet sein soll. \\
+		\hline
+	\end{tabular}
+		\caption{Risiko-Bewertung-Maßnahmen}
+\label{Risiko}
+\end{table}
 \section{Pflichtenheft}
 \subsection{Zielbestimmung}
 \begin{itemize}
@@ -336,7 +379,7 @@ Nachfolgend sind 4 tabellarisch dargestellte Testfälle beschrieben, welche grun
 
 \subsection{Testfälle}
 \begin{table}
-	\caption{Testfall 1: Bewegungssteuerung}
+	
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{|p{3.5cm}|p{11cm}|}
 	
@@ -395,10 +438,11 @@ Nachfolgend sind 4 tabellarisch dargestellte Testfälle beschrieben, welche grun
 	\end{itemize} \\ 
 	\hline 
 \end{tabular} 
+\caption{Testfall 1: Bewegungssteuerung}
 \end{table}
 
 \begin{table}
-	\caption{Testfall 2: Levelabschluss}
+
 	\renewcommand{\arraystretch}{1.5}
 	\begin{tabular}{|p{3.5cm}|p{11cm}|}
 		
@@ -452,10 +496,11 @@ Nachfolgend sind 4 tabellarisch dargestellte Testfälle beschrieben, welche grun
 		\end{itemize} \\ 
 		\hline 
 	\end{tabular} 
+	\caption{Testfall 2: Levelabschluss}
 \end{table}
 
 \begin{table}
-	\caption{Testfall 3: Tod der Spielfigur durch Fall}
+
 	\renewcommand{\arraystretch}{1.5}
 	\begin{tabular}{|p{3.5cm}|p{11cm}|}
 		
@@ -505,10 +550,11 @@ Nachfolgend sind 4 tabellarisch dargestellte Testfälle beschrieben, welche grun
 		\end{itemize} \\ 
 		\hline 
 	\end{tabular} 
+	\caption{Testfall 3: Tod der Spielfigur durch Fall}
 \end{table}
 
 \begin{table}
-	\caption{Testfall 4: Schalter zum Öffnen einer Tür}
+
 	\renewcommand{\arraystretch}{1.5}
 	\begin{tabular}{|p{3.5cm}|p{11cm}|}
 		
@@ -559,6 +605,7 @@ Nachfolgend sind 4 tabellarisch dargestellte Testfälle beschrieben, welche grun
 		\end{itemize} \\ 
 		\hline 
 	\end{tabular} 
+	\caption{Testfall 4: Schalter zum Öffnen einer Tür}
 \end{table}
 
 \section{Akzeptanztests}
