@@ -1,4 +1,4 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{3}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -14,13 +14,22 @@
 \newblock Wien~: Manz Verlag Schulbuch, 2013. --
 \newblock ISBN 978-3-706-84352-2
 
-\bibitem[Wikipedia(2018)]{Spiel-Engine}
-\dinatlabel{Wikipedia 2018} \textsc{Wikipedia}:
+\bibitem[Wikipedia(2018{\natexlab{a}})]{Spiel-Engine}
+\dinatlabel{Wikipedia 2018{\natexlab{a}}} \textsc{Wikipedia}:
 \newblock \emph{Spiel-Engine --- Wikipedia{,} Die freie Enzyklopädie}.
 \newblock 2018. --
 \newblock URL
   \url{https://de.wikipedia.org/w/index.php?title=Spiel-Engine&oldid=173243484}.
   --
 \newblock [Online; Stand 22. Juni 2018]
+
+\bibitem[Wikipedia(2018{\natexlab{b}})]{Unity-Engine}
+\dinatlabel{Wikipedia 2018{\natexlab{b}}} \textsc{Wikipedia}:
+\newblock \emph{Unity (Spiel-Engine) --- Wikipedia{,} Die freie Enzyklopädie}.
+\newblock 2018. --
+\newblock URL
+  \url{https://de.wikipedia.org/w/index.php?title=Unity_(Spiel-Engine)&oldid=178184986}.
+  --
+\newblock [Online; Stand 23. Juni 2018]
 
 \end{thebibliography}

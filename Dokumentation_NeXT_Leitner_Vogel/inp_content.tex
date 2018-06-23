@@ -95,7 +95,7 @@ Die Einschätzung der Einstellung in Tabelle \ref{Stakeholder-Analyse} geht von 
 	\label{Stakeholder-Diagramm}
 
 	\includegraphics[width=16cm,height=8cm]{images/Projektumfeldanalyse.png}
-	\captionbelow{Stakeholder-Diagramm -->	In diesem Diagramm ist das Ergebnis der Tabelle \ref{Stakeholder-Analyse} graphisch dargestellt. Die Größe der Kreise Zeigt den Einfluss, die Länge der Linien zwischen Stakeholder und NeXt die Nähe und die Zeichen (+ --> positiv, ~ --> neutral, - --> negativ) unter dem Namen des Stakeholders dessen Nähe zum Projekt. }
+	\captionbelow{Stakeholder-Diagramm -->	In diesem Diagramm ist das Ergebnis der Tabelle \ref{Stakeholder-Analyse} graphisch dargestellt. Die Größe der Kreise Zeigt den Einfluss, die Länge der Linien zwischen Stakeholder und NeXt die Nähe und die Zeichen (++ --> sehr positiv, ~ --> neutral, -- --> sehr negativ) unter dem Namen des Stakeholders dessen Nähe zum Projekt. }
 \end{figure}
 
 
@@ -199,11 +199,46 @@ Das Computerspiel NeXt ist in den Genres Jump and Run und Puzzle angesiedelt. Ha
 	\item Technologien die aus dem Unterricht nicht bekannt sind, im Detail beschreiben incl. deren Einsatz im Projekt
 	\item Fokus aus eingesetzten Frameworks
 \end{itemize}
+\section{Engine}
 
-\section{Unity-Engine}
-\subsection{Spiele-Engine-Erklärung}
-Eine Engine ist eine Art Framework 
+\subsection{Spiel-Engine}
+Eine Spiel-Engine ist eine Art Framework, welches spezielle für Computerspiele entwickelt wurde. Die Engine ist zuständig für den Spielverlauf aber auch für die visuelle Darstellung des Spielablaufs. Viele Spiel-Engines liefern auch eine Entwicklungsumgebung mit, diese liefert die Werkzeuge für die Entwicklung der jeweiligen Applikation mit sich. \cite{Spiel-Engine}
 
+\subsection{Unity-Engine}
+Auf anraten unseres Projektpartners verwendeten wir die Unity-Enigne, da auch das Unternehmen selbst damit arbeitet. Die Engine liefert auch eine Entwicklungsumgebung mit sich, welche sehr angenehm zum arbeiten ist. Zusätzlich ist es eine sehr weit verbreitete Spiel-Engine zu der es auch äußerst hilfreiches Lehrmaterial gibt, Unity selbst bietet auch eine Vielzahl an Lernvideos an.
+
+Das Unternehmen Unity Technologies hat seine Hauptsitz in San Francisco und wurde 2004 gegründet. Die Zielplattformen für Unity sind PCs, Spielkonsolen, mobile Geräte sowie Webbrowser. \cite{Unity-Engine}
+
+\subsubsection{Technische Eigenschaften}
+Im folgenden Abschnitt sind einige Technische Eigenschaften von Unity erklärt, es werden jedoch nicht alle beschrieben da dies den Rahmen dieses Projekts sprängen würde.
+
+\textbf{Grafik}\\
+Unity ist auf dem neusten Stand der Technik und unterstützt die verschiedensten Techniken die derzeit in der Spielentwicklung benötigt werden. Außerdem kann man auch die eingebauten Beleuchtungseffekte selbst bearbeitet werden, dies erweitert die Möglichkeiten der Engine nochmals signifikant.
+
+\textbf{Animation}\\
+Objekte des Spiels könne über Skripte und andere Vorgehensweisen wie zum Beispiel physikalische Kräfte bewegt werden. Dieser Mechanismus war für unser Projekt sehr wichtig da der Spieler die Charaktere selbst in Echtzeit steuert. 
+
+\textbf{Programmierung}\\
+Unity unterstützt drei verschiedene Programmiersprachen:
+\begin{itemize}
+	\item C\#
+	\item UnityScript (vergleichbar mit JavaScript)
+	\item Boo
+\end{itemize}
+Diese sind notwendig um Skripte zu erstellen, welche die von Unity eingebauten Mechanismen erweitern. Da wir im Unterricht bereits mit C\# gearbeitet haben wählten wir auch diese.
+
+\textbf{Werkzeuge}\\
+Die Engine ist mittels Werkzeugen erweiterbar, diese sind zu einem Teil kostenlos Verfügbar und als einfache Plug-ins zu integrieren. Bei unserem Projekt konnten wir dadurch ohne Kosten einfache Grafiken und nützliche Tools einsetzen.\\
+\cite{Unity-Engine}
+
+\section{Entwicklungsumgebung}
+\subsection{Unity-Editor}
+Als Entwicklungsumgebung wählten wir Unity-Editor da sie auch von Unity Technologies entwickelt wurde und somit speziell für die Unity-Engine gemacht wurde. Sie wurde basierend auf gängigen 3D-Animationsprogrammen designet. Sie ist sehr einfach zu bedienen und ermöglicht auch das importieren von Werkzeugen mittels eines einfachen Mausklicks. In dieser Entwicklungsumgebung können alle für die Spielentwicklung wichtigen Arbeiten verrichtet werden, nur für das Programmieren der Scripte verwendeten wir Visual Studio. \cite{Unity-Engine}
+
+\subsection{Visual Studio}
+Wie bereits oben kurz erwähnt verwendeten wir für die Programmierung von Scripten Visual Studio Community 2017, welche für Studenten kostenlos ist und wir auch schon im Unterricht zum entwickeln von Apllikatione mit C\#  verwendeten. 
+
+\section{C\#}
 \chapter{Problemanalyse}
 \section{USE-Case-Analyse}
 \begin{itemize}

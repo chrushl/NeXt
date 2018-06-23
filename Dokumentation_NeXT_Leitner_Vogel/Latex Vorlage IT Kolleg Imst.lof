@@ -5,7 +5,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Mag. Claudio Landerer\relax }}{18}{figure.caption.14}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces ClockStone Softwareentwicklung GmbH\relax }}{19}{figure.caption.15}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Mag. Claudio Landerer\relax }}{19}{figure.caption.16}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Stakeholder-Diagramm --> In diesem Diagramm ist das Ergebnis der Tabelle \ref {Stakeholder-Analyse} graphisch dargestellt. Die Gr\IeC {\"o}\IeC {\ss }e der Kreise Zeigt den Einfluss, die L\IeC {\"a}nge der Linien zwischen Stakeholder und NeXt die N\IeC {\"a}he und die Zeichen (+ --> positiv, ~ --> neutral, - --> negativ) unter dem Namen des Stakeholders dessen N\IeC {\"a}he zum Projekt. \relax }}{21}{figure.caption.20}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Stakeholder-Diagramm --> In diesem Diagramm ist das Ergebnis der Tabelle \ref {Stakeholder-Analyse} graphisch dargestellt. Die Gr\IeC {\"o}\IeC {\ss }e der Kreise Zeigt den Einfluss, die L\IeC {\"a}nge der Linien zwischen Stakeholder und NeXt die N\IeC {\"a}he und die Zeichen (++ --> sehr positiv, ~ --> neutral, -- --> sehr negativ) unter dem Namen des Stakeholders dessen N\IeC {\"a}he zum Projekt. \relax }}{21}{figure.caption.20}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Matrix zur qualitativen Einordnung von Risiken --> Die Matrix wurde in vier Kategorien eingeteilt. Die Risiken werden dann zur jeweils passende Kategorie ein zugeordnet um diese dann besser einsch\IeC {\"a}tzen zu k\IeC {\"o}nnen.\cite [S. 141 -142]{SystemplanungundProjektmanagement-Lehrbuch}\relax }}{22}{figure.caption.21}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -19,6 +19,6 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {14.1}{\ignorespaces Arduino mit Lichtsensor und Lichterkette}}{51}{figure.caption.28}
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Arduino mit Lichtsensor und Lichterkette}}{53}{figure.caption.29}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
