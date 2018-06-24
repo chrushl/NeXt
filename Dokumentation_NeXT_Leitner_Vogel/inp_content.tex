@@ -14,26 +14,23 @@ Diese Diplomarbeit befasst sich mit der Entwicklung des Prototyps: NeXt. Das Pro
 
 \section{Metainformationen}
 \subsection{Team}
-\begin{table}[H]
-	
-	\renewcommand{\arraystretch}{1.5}
-	\begin{tabular}{|p{8cm}|p{8cm}|}
-		\hline
-		\includegraphics[width=6cm]{images/vogelBeisp.jpg}
-		\caption{Leitner}
-		\label{leitner}
-		 & \includegraphics[width=6cm]{images/leitnerBeisp.jpg}
-		 \caption{Vogel}
-		 \label{Vogel}
-		 \\
-		\hline
-		Team-Leiter & Teammitglied\\
-		\hline
-		Lukas Vogel & Leitner Michael\\
-		\hline
-	\end{tabular}
-	\caption{Team}
-\end{table}
+
+	\begin{figure}[H]
+	\centering
+		\includegraphics[width=6cm]{images/LukasVogel.png}
+		\caption{LukasVogel}
+		\ \\
+		\textbf{Team Leiter:} Lukas Vogel
+	\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6cm]{images/leitnerBeisp.jpg}
+	\caption{Michael Leitner}
+	Team Mitglied: Michael Leitner
+\end{figure}
+
 \subsection{Betreuer}
 Seitens der Schule hat sich Herr Claudio Landerer bereiterklärt unser Projekt zu Betreuen. Er brachte uns in seinem Unterricht das Programmieren bei. 
 	\begin{figure}[H]
@@ -49,16 +46,17 @@ Seitens der Schule hat sich Herr Claudio Landerer bereiterklärt unser Projekt z
 	\includegraphics[]{images/ClockstoneLogo.png}
 	\caption{ClockStone Softwareentwicklung GmbH}
 \end{figure}
-Unser Partner während der Diplomarbeit war die Firma ClockStone Softwareentwicklung GmbH. ClockStone ist eine Spielentwicklungsfirma mit Sitz in Innsbruck. Einige ihrer Produkte wie zum Beispiel Bridge Constructor sind weltweit bekannt. 
+Unser Partner während der Diplomarbeit war die Firma ClockStone Softwareentwicklung GmbH. ClockStone ist eine Spielentwicklungsunternehmen mit Sitz in Innsbruck, das im Jahr 2006 gegründet wurde. Einige ihrer Produkte wie zum Beispiel Bridge Constructor sind weltweit bekannt und sehr beliebt. 
 
-Unser Ansprechpartner war [NAME].
+
+\subsection{Ansprechpartner}
+Unser Ansprechpartner des Unternehmens war Michael Schiestl. Er unterstütze uns bei Fragen bezüglich der Spielentwicklung und es war äußerst angenehm mit ihm zu arbeiten.
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=3cm, height=4cm]{images/Landerer_Claudio.jpg}
-	\caption{Mag. Claudio Landerer}
+	\caption{Michael Schiestl}
 \end{figure}
-\subsection{Ansprechpartner}
-
 \section{Vorerhebungen}
 \subsection{Projektzieleplan}
 \def \currentAuthor {Michael Leitner} %so kann jederzeit der Autor geändert werden -> wird in der Fusszeile angezeigt.
@@ -242,28 +240,13 @@ Für die Dokumentation der Diplomarbeit verwendeten wir auf anraten von unserem 
 LaTeX vereinfacht die Benutzung von TeX einem Textsatzsystem mittels Makros. TeXstudio ist eine Entwicklungsumgebung die für LaTeX entwickelt wurde. \cite{Latex}
 \chapter{Problemanalyse}
 \section{USE-Case-Analyse}
-\begin{itemize}
-	\item UseCases auf Basis von Benutzerzielen identifizieren: 
-	\begin{itemize}
-		\item Benutzer eines Systems identifizieren
-		\item Benutzerziele identifizieren (Interviews)
-		\item Use-Case-Liste pro Benutzer definieren
-	\end{itemize}
-	\item UseCases auf Basis von Ereignissen identifizieren: 
-	\begin{itemize}
-		\item Externes Event triggert einen Prozess
-		\item zeitliches Event triggert einen Prozess (Zeitpunkt wird erreicht) 
-		\item State-Event (Zustandsänderung im System triggert einen Prozess)
-	\end{itemize}
-	\item Werkzeuge:
-	\begin{itemize}
-		\item USE-Case-Beschreibungen (textuell, tabellarisch)
-		\item USE-Case-Diagramm
-		\item Aktivitätsdiagramm für den Use-Case (Interaktion zwischen Akteur und System abbilden)
-		\item System-Sequenzdiagramm (Spezialfall eines Sequenzdiagramms: Nur 1 Akteur und 1 Objekt, das Objekt ist das komplette System, es geht um die Input/Output Requirements, die abzubilden sind)
-	\end{itemize}
-\end{itemize}
-
+In diesem Projekt wurde eine USE-Case-Analyse vollzogen. Als Benutzer gibt es nur den Anwender der Applikation, dessen Ziel es sein wird das Computerspiel zu spielen oder es zu beenden. Die USE-Case-Analyse und dessen Ergebnis wird als Diagramm in Abbildung \ref{USE-Case-Diagramm} dargestellt.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=17.5cm,height=10cm]{images/UseCaseDiagram.jpg}
+	\caption{USE-Case-Diagramm}
+	\label{USE-Case-Diagramm}
+\end{figure}
 \section{Domain-Class-Modelling}
 \begin{itemize}
 	\item "Dinge" (Rollen, Einheiten, Geräte, Events etc.) identifizieren, um die es im Projekt geht
@@ -272,12 +255,28 @@ LaTeX vereinfacht die Benutzung von TeX einem Textsatzsystem mittels Makros. TeX
 \end{itemize}
 
 \section{User-Interface-Design}
-\begin{itemize}
-	\item Mockups
-	\item Wireframes
-\end{itemize}
-
-
+Im folgenden Teil der Dokumentation sind verschiedene Wireframes der Benutzeroberfläche des Programms zu sehen.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=16cm, height=9cm]{images/WireframeMainmenu.png}
+	\caption{Wireframe-Hauptmenü}
+	\label{WireframeMainmenu}
+\end{figure}
+In Abbildung \ref{WireframeMainmenu} ist der erste Entwurf für das Hauptmenü des Spiels zu sehen. Diese Ansicht ist die Erste die der Benutzer sehen soll wenn er das Computerspiel startet. Das Menü ist sehr einfach gehalten. Es gibt ein Textfeld welches "NeXt" anzeigt und darunter zwei Buttons. Der obere Button soll  den Spieler in das Menü der Levels leiten, siehe Abbildung \ref{WireframeLevelsmenu}. Der untere Button soll  die Applikation schließen.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=16cm, height=9cm]{images/WireframeLevelsmenu.png}
+	\caption{Wireframe-Levelmenü}
+	\label{WireframeLevelsmenu}
+\end{figure}
+Das nächste Wireframe in Abbildung \ref{WireframeLevelsmenu} zeigt eine Übersicht aller Spielbaren Levels welche als Nummerierte Buttons dargestellt werden. Wenn der Benutzer einen Level-Button betätigt soll  sofort das gewählte Level starten. Der Button rechts unten mit der Beschriftung "Back" soll den Spieler wieder zurück in das Hauptmenü führen. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=16cm, height=9cm]{images/WireframePausemenu.png}
+	\caption{Wireframe-Pausemenü}
+	\label{WireframePausemenu}
+\end{figure}
+Sobald der Benutzer sich in einem Level befindet soll er die Möglichkeit habben, mittels Escape-Taste das Spiel stoppen und in das Pausemenü wechseln. Das Wireframe dazu ist in Abbildung \ref{WireframePausemenu} zu sehen. Die graue Fläche soll dabei das Level darstellen welches im Hintergrund immer noch zu sehen sein soll. Zusätzlich sind noch zwei Buttons zu sehen der erste Button mit dem Text "Back" soll das Menü wieder schließen und das Spiel weiter laufen lassen. Der Zweite welcher mit der Beschriftung "Main Menu" versehen ist soll denn Benutzer wieder in die Ansicht des Hauptmenüs, Abbildung \ref{WireframeMainmenu} bringen. 
 \chapter{Systementwurf}
 
 \section{Architektur}
