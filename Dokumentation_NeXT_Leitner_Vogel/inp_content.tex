@@ -356,7 +356,7 @@ Detaillierte Beschreibung der Teststrategie (Testdriven Development):
 
 Zu Codesequenzen:
 \begin{itemize}	\item kurze Codesequenzen direkt im Text (mit Zeilnnummern auf die man in der Beschreibung verweisen kann)
-	\item lange Codesequenzen in den Anhang (mit Zeilennummer) und darauf verweisen (wie z.B. hier \cref{qj})
+	\item lange Codesequenzen in den Anhang (mit Zeilennummer) und darauf verweisen 
 \end{itemize}
 
 \section{Unity-Klassenstruktur}
@@ -391,7 +391,7 @@ Damit der Charakter überhaupt Bewegungen ausführen kann, wurde ihm ein Rigidbo
 \end{figure}
 In diesem Container können verschiedene Eigenschaften, die sich auf den Charakter auswirken, verändert werden. Unter anderem die "Mass" Eigenschaft, welche für das Gewicht des Charakters zuständig ist.
 
-\begin{lstlisting}[language=[Sharp]C]
+\begin{lstlisting}[language={[Sharp]C}]
 void FixedUpdate ()
 {
 grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
@@ -423,7 +423,7 @@ Für das Springen des Charakters ist ebenso eine Vektorrechnung verantwortlich, 
 \section{Kameraführung}
 Die Kameraführung wurde einfach gelöst. Die Kamera wurde, auf einer bestimmten Entfernung, an den Charakter gehängt. 
 
-\begin{lstlisting}[language=[Sharp]C]
+\begin{lstlisting}[language={[Sharp]C}]
 public class CameraController : MonoBehaviour {
 
 public GameObject player;
@@ -443,7 +443,7 @@ Damit die Kamera Flüssig den Charakter verfolgt, wurde die LateUpdate-Methode v
 
 \section{Schalter und Türen}
 Für das Öffnen einer Tür, wurde eine Druckplatte verwendet. 
-\begin{lstlisting}[language=[Sharp]C]
+\begin{lstlisting}[language={[Sharp]C}]
 void Update ()
 {
 if ((obj1.transform.position - player.transform.position).magnitude < 1.0f)
@@ -458,7 +458,7 @@ Bilder Einfügen
 
 \section{TimeRift}
 Das TimeRift-Prinzip ist die Grundlegende Funktion in diesem Projekt. Während des erstens Durchlaufes des Spielers, werden in jedem Frame die Koordinaten des Charakters gespeichert.
-\begin{lstlisting}[language=[Sharp]C]
+\begin{lstlisting}[language={[Sharp]C}]
 void Update () {
 movementSave.addBewegung(new Bewegung(new Koordinatee(posX, posY), new Koordinate(player.transform.position.x, player.transform.position.y)));
 posX = player.transform.position.x;
@@ -466,7 +466,7 @@ posY = player.transform.position.y;
 }
 \end{lstlisting}
 Dazu wird eine in der Liste "movementSave" eine neue Bewegung gespeichert. Die Bewegung wird immer von den alten Koordinaten aus gespeichert. Ist jetzt dann der Durchlauf beendet, so wird das Level zurückgesetzt und die Liste "movementSave" wird und die Liste "restartMovementSave" gespeichert.
-\begin{lstlisting}[language=[Sharp]C]
+\begin{lstlisting}[language={[Sharp]C}]
 private void restart()
 {
 restartMovementSave.Add(movementSave);
@@ -480,7 +480,7 @@ movementSave.addBewegung(new Bewegung(new Koordinate(0, 0), new Koordinate(0, 0)
 }
 \end{lstlisting}
 Ebenso werden die andere Werte gesetzt, wie z.B.: Die Startkoordinaten.
-\begin{lstlisting}[language=[Sharp]C]
+\begin{lstlisting}[language={[Sharp]C}]
 public class Bewegungsspeicher
 {
 private ArrayList bewegungslist = new ArrayList();
