@@ -73,8 +73,9 @@ Unser Ansprechpartner des Unternehmens war Michael Schiestl. Er unterstütze uns
 \end{figure}
 \section{Vorerhebungen}
 \subsection{Projektzieleplan}
-\def \currentAuthor {Michael Leitner} %so kann jederzeit der Autor geändert werden -> wird in der Fusszeile angezeigt.
-Projektziele-Hierarchie - SMART
+\def \currentAuthor {Michael Leitner} Das Ziel unseres Projekts ist es ein spielbares, unterhaltendes und einfach bedienbares Computer
+Spiel zu entwickeln. Die Meilensteine sollen Termingerecht realisiert werden und es soll pünktlich bis
+zur Projektabgabe im Juni fertig gestellt werden.
 \newpage
 \subsection{Projektumfeld}
 \def \currentAuthor {Lukas Vogel} %so kann jederzeit der Autor geändert werden -> wird in der Fusszeile angezeigt.
@@ -159,41 +160,61 @@ Folgende Risiken sind aus der Projektumfeld-Analyse hervorgegangen und werden in
 \end{table}
 \section{Pflichtenheft}
 \subsection{Zielbestimmung}
+Das Spiel „NeXt“ soll nach dem „Time-Rifts“-Prinzip agieren.
+Das 2-Dimensionale Spiel wird gemeistert durch:
 \begin{itemize}
-	\item Projektbeschreibung
-	\item IST-Zustand
-	\item SOLL-Zustand
-	\item NICHT-Ziele (Abgrenzungskriterien)
+	\item koordinierte Zusammenarbeit aller Figuren
+	\item Zeitmanagement
+	\item Jump-and-Run Elemente
+	\item Lösen von Puzzle-Elementen
 \end{itemize}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{images/TimeRift.png}
+\end{figure}
+Time-Rifts (Erklärung): Jeder Durchlauf hat ein Zeitlimit, dass Ziel sollte es sein Durch die
+verschlossene Tür (grün) zu gehen.
+\begin{itemize}
+	\item Durchlauf I:
+	Der/die Spieler/in bewegt Figur 1(schwarzes Rechteck) auf eine Bodenplatte.
+	-> Tür öffnet sich. (bleibt offen solange die Bodenplatte betätigt ist)
+	\item Durchlauf II:
+	Figur 1 macht das selbe wieder (in Echtzeit) und der/die Spieler/in bewegt Figur 2 (rotes
+	Rechteck) durch die Tür
+\end{itemize}
+Jedoch ist dieses Prinzip nicht auf nur 2 Durchgänge beschränkt.
 \subsection{Produkteinsatz und Umgebung}
-\begin{itemize}
-	\item Anwendungsgebiet
-	\item Zielgruppen
-	\item Betriebsbedingungen
-	\item Hard-/Softwareumgebung
-\end{itemize}
+Die Zielgruppe dieses Spieles, ist jeder der sich einer Herausforderung stellen möchte. Durch das TimeRift-Prinzip wird eine großer Herausforderung geboten.Spielbar wird dieses Spiel auf jedem Windows-Computer sein. Da auf gute Grafik verzichtet worden ist, muss der Computer auch nicht leistungsstark sein, um das Spiel ausführen zu können 
 \subsection{Funktionalitäten}
 \begin{itemize}
 	\item MUSS-Anforderungen
 	\begin{itemize}
-		\item Funktional
+		\item Funktional:
+		\begin{itemize}
+			\item TimeRift-Prinzip-Implementiert
+			\item Ein paar Level implementiert
+		\end{itemize}
 		\item Nicht-funktional
+		\begin{itemize}
+			\item Das Spiel soll einfach gesteuert werden
+			\item Das Spiel soll Einschränkungen Spielbar sein.
+		\end{itemize}
 	\end{itemize}
 	\item KANN-Anforderungen
 	\begin{itemize}
 		\item Funktional
+		\begin{itemize}
+			\item Ein Komplettes Level-Pack enthalten
+			\item Erweiterte Steuerungsmöglichkeiten 
+		\end{itemize}
 		\item Nicht-funktional
+		\begin{itemize}
+			\item Das Spiel kann mit Musik unterlegt sein
+		\end{itemize}
 	\end{itemize}
 \end{itemize}
-\subsection{Testszenarien und Testfälle}
-\begin{itemize}
-	\item Beschreibung der Testmethodik
-	\item Testfall 1
-	\item Testfall 2
-	\item \ldots
-\end{itemize}
 \section{Planung}
-\subsection{Projektstrukturplan}
+\subsection{Projektstruktrplan}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=16cm,height=8cm]{images/Projektstrukturplan.png}
@@ -203,7 +224,16 @@ Folgende Risiken sind aus der Projektumfeld-Analyse hervorgegangen und werden in
 
 Der Projektstrukturplan, zu sehen in Abbildung \ref{Projektstrukturplan}, soll den gesamten Umfang des Projekts strukturiert und gut lesbar darstellen.
 
-\subsection{Meilensteine}
+\subsection{Meilensteine}\begin{itemize}
+	\item 10.10.2017 Abschluss Anforderungsdefinition, Vorbereitung der Entwicklungsumgebung	
+	\item 28.11.2017 Erster spielbarer Prototyp (Basissteuerung, Physik, Sound, Grafik, Test-Level)	
+	\item 09.01.2018 Spielbarer Prototyp nach dem Timerift-Prinzip	
+	\item 06.02.2018 Erste spielbare Levels	
+	\item 20.03.2018 Vollständige Fertigstellung des Spiels mit einigen Levels, Beginn der Beta-Testing-Phase	
+	\item 06.04.2018 Abschluss Beta-Testing	
+	\item 30.04.2018 Verbesserung des Prototyps auf Basis der Rückmeldungen (Beta-Test)
+	\item 15.06.2018 Fertigstellung der Dokumentation, Übergabe an den Auftraggeber
+\end{itemize}
 \subsection{Gant-Chart}
 
 \subsection{Pläne zur Evaluierung}
@@ -301,99 +331,10 @@ Sobald der Benutzer sich in einem Level befindet soll er die Möglichkeit habben
 \section{Architektur}
 
 \subsection{Design der Komponenten}
-
-Darstellung und Beschreibung der Systemarchitektur;
-
-\begin{itemize}
-	\item  statische Zerlegung des Systems in seine physischen Bestandteile (Komponenten, Komponentendiagramm)
-	\item (textuelle) Beschreibung des dynamischen Zusammenwirkens aller Komponenten 
-	\item (textuelle) Beschreibung der Strategie für die Architektur, d. h. wie die Architektur in Statik und Dynamik funktionieren soll.
-	\item Verwendung von Referenzarchitekturen bzw. Architekturmustern (als Schablonen, z.B. MVC. Plugin, Pipes and Filters)
-	\begin{itemize}
-		\item MVC
-		\item Schichten
-		\item Pipes
-		\item Request Broker
-		\item Service-Oriented
-	\end{itemize}
-\end{itemize}
-
-\subsection{Benutzerschnittstellen} 
-\begin{itemize}
-	\item Design des UIs
-	\item Dialoge, Dialogsteuerung, Ergonomie, Gestaltung, Eingabeüberprüfungen
-\end{itemize}
-
-\subsection{Datenhaltunskonzept}
-\begin{itemize}
-	\item Design der Datenbank (ER-Modell)
-	\item Design des Zugriffs auf diese Daten (Datenhaltungskonzept)
-	\item Caching, Transaktionen
-\end{itemize}
-
-\subsection{Konzept für Ausnahmebehandlung}
-\begin{itemize}
-	\item Systemweite Festlegung, wie mit Exceptions umgegangen wird
-	\item Exceptions sind primär aus den Bereichen UI, Persistenz, Workflow-Management
-\end{itemize}
-
-\subsection{Sicherheitskonzept}
-Beschreibung aller sicherheitsrelevanten Designentscheidungen
-
-\begin{itemize}
-	\item Design der Security-Elemente
-	\item Design von Safety-Elementen (Fehlertoleranz, Verfügbarkeit etc.)
-\end{itemize}
-
-\subsection{Design der Testumgebung}
-\begin{itemize}
-	\item wie wird getestet (Unit-Testing, Integrationstesting, Systemtests, Akzeptanztests)
-	\item Testumgebung, Testprozess, Teststrategie, Testmethoden, Testfälle
-\end{itemize}
+In der Unity3D Entwicklungsumgebung werden keine Klassischen Architekturmuster verwendet. Wenn ein bestimmtes Objekt ein Skript benötigt, wird ihm dieses Skript angehängt. Jedoch wurden für das TimeRift-Prinzip mehrere Klassen verwendet.
 
 
-\subsection{Desing der Ausführungsumgebung}
-\begin{itemize}
-	\item Deployment (DevOps)
-	\item Betrieb (besonders Hoch- und Hertunerfahren der Anwendung)
-\end{itemize}
-
-\section{Detailentwurf}
-
-Design jedes einzelnen USE-Cases
-
-\begin{itemize}
-	\item Design-Klassendiagramme vom Domain-Klassendiagramm ableiten (incl. detaillierter Darstellung und Verwendung von Vererbungshierarchichen, abstrakten Klassen, Interfaces)
-	\item Sequenzdiagramme vom System-Sequenz-Diagramm ableiten
-	\item Aktivitätsdiagramme
-	\item Detaillierte Zustandsdiagramme für wichtige Klassen
-\end{itemize}
-
-Verwendung von CRC-Cards (Class, Responsibilities, Collaboration) für die Klassen
-\begin{itemize}
-	\item um Verantwortlichkeiten und Zusammenarbeit zwischen Klassen zu definieren und
-	\item um auf den Entwurf der Geschäftslogik zu fokussieren
-\end{itemize}
-
-Design-Klassen für jeden einzelnen USE-Case können z.B. sein:
-
-\begin{itemize}
-	\item UI-Klassen
-	\item Data-Access-Klassen
-	\item Entity-Klassen (Domain-Klassen)
-	\item Controller-Klassen
-	\item Business-Logik-Klassen
-	\item View-Klassen
-\end{itemize}
-
-Optimierung des Entwurfs (Modularisierung, Erweiterbarkeit, Lesbarkeit):
-
-\begin{itemize}
-	\item Kopplung optimieren
-	\item Kohäsion optimieren
-	\item SOLID
-	\item Entwurfsmuster einsetzen
-\end{itemize}
+UML!!!
 
 \chapter{Implementierung}
 \section{GUI}
@@ -414,10 +355,160 @@ Detaillierte Beschreibung der Teststrategie (Testdriven Development):
 \end{itemize}
 
 Zu Codesequenzen:
-\begin{itemize}
-	\item kurze Codesequenzen direkt im Text (mit Zeilnnummern auf die man in der Beschreibung verweisen kann)
+\begin{itemize}	\item kurze Codesequenzen direkt im Text (mit Zeilnnummern auf die man in der Beschreibung verweisen kann)
 	\item lange Codesequenzen in den Anhang (mit Zeilennummer) und darauf verweisen (wie z.B. hier \cref{qj})
 \end{itemize}
+
+\section{Unity-Klassenstruktur}
+\subsection{MonoBehaviour}	
+Die Klasse „MonoBehaviour“ ist eine Standardklasse, die von der Unity3D-Engine bereitgestellt wird. Jedes Skript, welches in Unity verwendet wird, muss von dieser Klasse erben (Ähnlich wie in Java die „Object-Klasse“ von jeder Klasse gerbt wird). MonoBehaviour gibt folgende Methoden zur Verfügung:
+\begin{itemize}
+	\item Start()
+	\item Update()
+	\item FixedUpdate()
+	\item LateUpdate()
+	\item OnGUI()
+	\item OnDisable()
+	\item OnEnable()
+\end{itemize}
+Verwendet werden in diesem Projekt aber nur die Start, Update, FixedUpdate und LateUpdate Methoden.
+\subsection{Start-Methode}
+Die Start-Methode wird nur einmal in der Skriptlaufzeit aufgerufen und zwar bei der Initialisierung des Skriptes.
+\subsection{Update-Methode}
+Die Update-Methode wird bei jedem Frame aufgerufen. Sie wird meistens für Berechnungen, die in jedem Frame durchgeführt werden müssen, verwendet. Nachteil hier ist aber, wenn das Spiel eine schlechte Framezahl hat werden die Berechnungen auch weniger oft durchgeführt.
+\subsection{FixedUpdate-Methode}
+Die FixedUpdate-Methode wird bei jedem fixierten Framerate Frame aufgerufen. Diese Methode soll verwendet werden für Bewegungen eines Charakters (Spielbar und nicht Spielbar). Dies hat den Grund, dass selbst bei schlechter Framerate, die Berechnungen der Bewegung konstant bleiben.
+\subsection{LateUpdate-Methode}
+Die LateUpdate-Methode wird nach allen anderen Update-Methoden aufgerufen. Sie wird hauptsächlich für Funktionen verwendet die nach all den Update-Methoden aufgerufen werden soll z.b.: Für die Kameraführung, da sich Objekte in der Update-Methode bewegt haben können.
+\section{Spieler}
+Der Spieler steuert mehrere spielbare Charaktere im laufe  eines Levels. Damit aber auch die Eingaben des Spieler verwertet werden, werden Skripte benötigt, die diese eingaben auswerten und verwerten. Diese Aufgabe wird von dem PlayerController Skript übernommen. 
+\subsection{PlayerController}
+Damit der Charakter überhaupt Bewegungen ausführen kann, wurde ihm ein Rigidbody2D-Container angehängt.
+\begin{figure}[htbp] 
+	\centering
+	\includegraphics[width=0.7\textwidth]{images/Ridigbody2D.png}
+	\caption{Aufbau des Ridigbody2D Containers}
+\end{figure}
+In diesem Container können verschiedene Eigenschaften, die sich auf den Charakter auswirken, verändert werden. Unter anderem die "Mass" Eigenschaft, welche für das Gewicht des Charakters zuständig ist.
+
+\begin{lstlisting}[language=[Sharp]C]
+void FixedUpdate ()
+{
+grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
+
+float move = Input.GetAxis("Horizontal");
+Rigidbody2D rb = GetComponent<Rigidbody2D>();
+rb.velocity = new Vector2(move * maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
+
+if (move > 0 && !faceingRight)
+Flip();
+else if (move < 0 && faceingRight)
+Flip();
+}
+\end{lstlisting}
+
+Wie schon bei Punkt 7.1.4 besprochen, wurde hier die FixedUpdate-Methode verwendet, da eine Bewegung unabhängig von der Framezahl berechnet werden soll. Am Anfang der Methode wird überprüft ob sich der Charakter auf dem Boden befinden. Hierfür wird der Funktion "OverlapCircle" die Parameter für den "groundCheck", "groundRadius" und "whatIsGround" mitgegeben
+\begin{itemize}
+	\item Das "groundCheck" Objekt ist ein unsichtbares Objekt, das dem Charakter angehängt worden und ist dafür zuständig, das sich der Boden und der "groundCheck" überschneiden.
+	\item "groundRadius" legt den Radius fest in dem sich der Boden und "groundCheck" überschneiden müssen, damit die Funktion einen boolschen "true" Wert zurückgibt.
+	\item "whatisGround" hat die Funktion, der Funktion zu sagen, welche Objekte überhaupt als Boden zählen.
+\end{itemize}
+Diese Zeile dient dazu, das der Charakter springen kann.
+
+Die Zeilen 6-13  sind für die Bewegung zuständig. In Zeile 6 wird der Input des Spielers eingelesen, wobei nur der Input für die Horizontale Bewegung wahrgenommen wird.
+In der Zeile 8 wird dann die Bewegung mittels einer Vektor Berechnung ausgeführt.
+Die Zeilen 10-13 sind für die Änderung der Richtung verantwortlich, wobei beide aber nur die Flip-Methode aufrufen. In der Flip-Methode wird letztendlich nur der Charakter gedreht, damit er sich in eine andere Richtung bewegen kann.
+Für das Springen des Charakters ist ebenso eine Vektorrechnung verantwortlich, diesmal in der Vertikalen Richtung.
+
+\section{Kameraführung}
+Die Kameraführung wurde einfach gelöst. Die Kamera wurde, auf einer bestimmten Entfernung, an den Charakter gehängt. 
+
+\begin{lstlisting}[language=[Sharp]C]
+public class CameraController : MonoBehaviour {
+
+public GameObject player;
+
+private Vector3 offset;
+
+void Start () {
+offset = transform.position - player.transform.position;
+}
+
+void LateUpdate () {
+transform.position = player.transform.position + offset;
+}
+}
+\end{lstlisting}
+Damit die Kamera Flüssig den Charakter verfolgt, wurde die LateUpdate-Methode verwendet.
+
+\section{Schalter und Türen}
+Für das Öffnen einer Tür, wurde eine Druckplatte verwendet. 
+\begin{lstlisting}[language=[Sharp]C]
+void Update ()
+{
+if ((obj1.transform.position - player.transform.position).magnitude < 1.0f)
+{
+float step = speed * Time.deltaTime;
+Door.transform.position = Vector3.MoveTowards(Door.transform.position, target.position, step);
+}
+}
+\end{lstlisting}
+
+Bilder Einfügen
+
+\section{TimeRift}
+Das TimeRift-Prinzip ist die Grundlegende Funktion in diesem Projekt. Während des erstens Durchlaufes des Spielers, werden in jedem Frame die Koordinaten des Charakters gespeichert.
+\begin{lstlisting}[language=[Sharp]C]
+void Update () {
+movementSave.addBewegung(new Bewegung(new Koordinatee(posX, posY), new Koordinate(player.transform.position.x, player.transform.position.y)));
+posX = player.transform.position.x;
+posY = player.transform.position.y;
+}
+\end{lstlisting}
+Dazu wird eine in der Liste "movementSave" eine neue Bewegung gespeichert. Die Bewegung wird immer von den alten Koordinaten aus gespeichert. Ist jetzt dann der Durchlauf beendet, so wird das Level zurückgesetzt und die Liste "movementSave" wird und die Liste "restartMovementSave" gespeichert.
+\begin{lstlisting}[language=[Sharp]C]
+private void restart()
+{
+restartMovementSave.Add(movementSave);
+posX = 0;
+posY = 0;
+count = -1;
+restartCount++;
+playerCount++;
+movementSave = new Bewegungsspeicher();
+movementSave.addBewegung(new Bewegung(new Koordinate(0, 0), new Koordinate(0, 0)));
+}
+\end{lstlisting}
+Ebenso werden die andere Werte gesetzt, wie z.B.: Die Startkoordinaten.
+\begin{lstlisting}[language=[Sharp]C]
+public class Bewegungsspeicher
+{
+private ArrayList bewegungslist = new ArrayList();
+
+public void addBewegung(Bewegung bewegung)
+{
+bewegungslist.Add(bewegung);
+}
+
+public Bewegung getBewegung(int zahl)
+{
+if ((bewegungslist.Count - 1) >= zahl)
+{
+return (Bewegung) bewegungslist[zahl];
+}
+
+return null;
+}
+
+public ArrayList getArray()
+{
+return bewegungslist;
+}
+}
+\end{lstlisting}
+In der Klasse "Bewegungsspeicher" wird die ArrayList für die Bewegungen Initialisiert.
+
+Damit im Zweiten Durchlauf des Levels, die erste Spielfigur die selben Bewegungen macht, werden in jedem Frame die Koordinaten aus der ArrayList gelesen und bei der Figur gesetzt.
 
 \chapter{Tests}
 
