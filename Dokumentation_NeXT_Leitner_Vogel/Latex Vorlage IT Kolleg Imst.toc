@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {2.3.2}Produkteinsatz und Umgebung}{27}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Funktionalit\IeC {\"a}ten}{28}{subsection.2.3.3}
 \contentsline {section}{\numberline {2.4}Planung}{29}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Projektstruktrplan}{29}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Projektstrukturplan}{29}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Meilensteine}{29}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Gant-Chart}{30}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}Pl\IeC {\"a}ne zur Evaluierung}{30}{subsection.2.4.4}

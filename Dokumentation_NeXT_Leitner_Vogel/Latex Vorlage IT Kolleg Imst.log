@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  25 JUN 2018 21:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  25 JUN 2018 22:26
 entering extended mode
 **"./Latex Vorlage IT Kolleg Imst.tex"
 ("Latex Vorlage IT Kolleg Imst.tex"
@@ -3402,7 +3402,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
 Package rerunfilecheck Info: File `"Latex Vorlage IT Kolleg Imst".out' has not 
 changed.
-(rerunfilecheck)             Checksum: E0AE9FBDD8A016539CB987BB9CC1E115;5284.
+(rerunfilecheck)             Checksum: 7166E12306E38F55F033FE00ADFB4F7A;5285.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
  ) 
 Here is how much of TeX's memory you used:
@@ -3424,7 +3424,7 @@ c/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:
 KTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
 mtt12.pfb>
-Output written on "Latex Vorlage IT Kolleg Imst.pdf" (82 pages, 3035970 bytes).
+Output written on "Latex Vorlage IT Kolleg Imst.pdf" (82 pages, 3035991 bytes).
 
 PDF statistics:
  1315 PDF objects out of 1440 (max. 8388607)
