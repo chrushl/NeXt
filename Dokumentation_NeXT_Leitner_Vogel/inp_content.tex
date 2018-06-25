@@ -360,39 +360,39 @@ Das Hauptmenü besteht aus einem Text und zwei Buttons, zu sehen in Abb.\ref{Mai
 \end{figure}
 Als erstes wird eine leere Szene benötigt. Dafür kann einfach die Tastenkombination Strg. + C gedrückt werden oder unter dem Menü links oben von Unity-Editor File --> New Scene.
 
-Wenn die neue Szenen angelegt ist mittels Rechtsklick in der Hierarchie der Szene eine neue Panel-Komponente anlegen, Abbildung \ref{PanelAnlegen}. Durch das Anlegen eines Panels wird auch automatisch eine Canvas-Komponente erstellt, welches hierarchisch gesehen über dem Panel steht.
+Wenn die neue Szenen angelegt ist mittels Rechtsklick in der Hierarchie der Szene ein neues Panel-Objekt anlegen, Abbildung \ref{PanelAnlegen}. Durch das Anlegen eines Panels wird auch automatisch ein Canvas-Objekt erstellt, welches hierarchisch gesehen über dem Panel steht.
 
 \begin{figure}[H]
 
 	\includegraphics[height=8cm]{images/PanelAnlegen.png}
-	\caption{Anlegen einer Panel-Komponente}
+	\caption{Anlegen eines Panel-Objekts}
 	\label{PanelAnlegen}
 \end{figure}
-Bei der Canvas-Komponenten müssen die Einstellungen von Abb. \ref{CanvasSetup} getroffen werden damit sie das gewünschte verhalten erbringt.
+Bei dem Canvas-Objekt müssen die Einstellungen von Abb. \ref{CanvasSetup} getroffen werden damit es das gewünschte verhalten erbringt.
 \begin{figure}[H]
 	\centering
 	\includegraphics[height=8cm]{images/CanvasSetup.png}
-	\caption{Einstellung des Canvas-Komponente im Hauptmenü}
+	\caption{Einstellung des Canvas-Objekts im Hauptmenü}
 	\label{CanvasSetup}
 \end{figure}
-Wenn diese Einstellung alle übereinstimmen ist der nächste schritt das bearbeiten des Panels. Hier muss al erstes die Hintergrundfarbe des Menüs festgelegt werden. Dies ist möglich unter bei der Komponente 'Image (Script)'. Wahlweise kann nun eine Grafik als Attribut 'Source Image' gewählt werden oder man verwendet nur eine Farbe wie in unserem Fall um den Hintergrund des Menüs darzustellen. Darüber hinaus wäre es noch möglich einen speziellen Effekt zu beim Hintergrund zu erzielen mittels der 'Material' Eigenschaft. Alle Eigenschaften für die Panel-Komponente sind in Abbildung \ref{PanelSetup} zu sehen.
+Wenn diese Einstellungen alle übereinstimmen ist der nächste schritt das bearbeiten des Panels. Hier muss al erstes die Hintergrundfarbe des Menüs festgelegt werden. Dies ist möglich unter bei der Komponente 'Image'. Wahlweise kann nun eine Grafik als Attribut 'Source Image' gewählt werden oder man verwendet nur eine Farbe wie in unserem Fall um den Hintergrund des Menüs darzustellen. Darüber hinaus wäre es noch möglich einen speziellen Effekt zu beim Hintergrund zu erzielen mittels der 'Material' Eigenschaft. Alle Eigenschaften für das Panel-Objekt sind in Abbildung \ref{PanelSetup} zu sehen.
 \begin{figure}[H]
 	\centering
 	\includegraphics[height=8cm]{images/PanelSetup.png}
-	\caption{Einstellung der Panel-Komponente im Hauptmenü}
+	\caption{Einstellung des Panel-Objekts im Hauptmenü}
 	\label{PanelSetup}
 \end{figure}
 
-Sobald die Panel-Komponente fertig konfiguriert ist geht es an die nächste Arbeit. Als erstes wird ein Textfeld erstellt welches mittels Rechtsklick in der Hierarchie links, unter dem UI zu finden ist.
+Sobald das Panel-Objekt fertig konfiguriert ist geht es an die nächste Arbeit. Als erstes wird ein Textfeld erstellt welches mittels Rechtsklick in der Hierarchie links, unter dem UI zu finden ist.
 
-Das Textfeld ist eine einfach aufgebaute Komponente hier wurde ledeglich der Text 'NeXt' beim Attribut Text angegeben und die Schriftgröße auf 30 erhöht, zu sehen in Abbildung \ref{TextSetupMainMenu}
+Das Textfeld ist ein einfach aufgebautes Objekt hier wurde ledeglich der Text 'NeXt' beim Attribut Text angegeben und die Schriftgröße auf 30 erhöht, zu sehen in Abbildung \ref{TextSetupMainMenu}
 \begin{figure}[H]
 	\centering
 	\includegraphics[height=8cm]{images/MainMenuTextSetup.png}
-	\caption{Einstellung der Text-Komponente im Hauptmenü}
+	\caption{Einstellungen des Text-Objekts im Hauptmenü}
 	\label{TextSetupMainMenu}
 \end{figure}
- Darauf hin wurden die Buttons,wie die anderen Komponenten, hinzugefügt. Der Button welcher später zum Level-Menü führt wurde bewusst größer gemacht wie der 'Quit'-Button der das Spiel schließt, da so dem Spieler die Auswahl der Levels besser in Auge sticht. Eine Button-Komponente hat in der Hierarchie unter sich immer eine Text-Komponente, wenn sie neu erstellt wird, Diese Textfeld ist die Beschriftung des Buttons. Da wir uns für einen grauen Hintergrund entschieden wurde der Text der Buttons weiß. Die Buttons selbst haben, je nach Position des Mauszeigers, verschiedene Farben . Für das Attribut 'Normal Color' wählten wir schwarz und wenn der Button gedrückt wird ändert sich seine Farbe auf ein dunkles Grau (Attribut: 'Pressed Color'). Dieses verhalten wird in Abbildung \ref{ButtonClicked} veranschaulicht.
+ Darauf hin wurden die Buttons,wie die anderen Objekte, hinzugefügt. Der Button welcher später zum Level-Menü führt wurde bewusst größer gemacht wie der 'Quit'-Button der das Spiel schließt, da so dem Spieler die Auswahl der Levels besser in Auge sticht. Ein Button-Objekt hat in der Hierarchie unter sich immer ein Text-Objekt, wenn sie neu erstellt wird, Diese Textfeld ist die Beschriftung des Buttons. Da wir uns für einen grauen Hintergrund entschieden wurde der Text der Buttons weiß. Die Buttons selbst haben, je nach Position des Mauszeigers, verschiedene Farben . Für das Attribut 'Normal Color' wählten wir schwarz und wenn der Button gedrückt wird ändert sich seine Farbe auf ein dunkles Grau (Attribut: 'Pressed Color'). Dieses verhalten wird in Abbildung \ref{ButtonClicked} veranschaulicht.
  
   \begin{figure}[H]
   	\centering
@@ -401,7 +401,7 @@ Das Textfeld ist eine einfach aufgebaute Komponente hier wurde ledeglich der Tex
   	\label{ButtonClicked}
   \end{figure}
 
-Ist das Einreichen soweit erreicht geht es darum das Verhalten der Buttons bei einem Click-Event zu steuern. Damit für jeden Button nicht extra ein Skript erstellt werden muss erstellen wir als erstes eine sogenannte 'Empty Komponente' welche wie der Name schon sagt leer ist. Danach werden die beiden Buttons in der Hierarchie unter die neu generierte Komponente gestellt. Dieser Schritt ist in Abb. \ref{MainMenuEmpty} zu sehen wobei 'MainMenu' die Empty-Komponente, 'Background' das Panel und 'LevelsButton' sowie 'QuitButton' die Buttons darstellt.
+Ist das Einreichen soweit erreicht geht es darum das Verhalten der Buttons bei einem Click-Event zu steuern. Damit für jeden Button nicht extra ein Skript erstellt werden muss erstellen wir als erstes ein sogenanntes 'Empty Objekt' welches wie der Name schon sagt leer ist. Danach werden die beiden Buttons in der Hierarchie unter das neu generierte Objekt gestellt. Dieser Schritt ist in Abb. \ref{MainMenuEmpty} zu sehen wobei 'MainMenu' das Empty-Objekt, 'Background' das Panel-Objekt und 'LevelsButton' sowie 'QuitButton' die Button-Objekte darstellt.
 
 \begin{figure}[H]
 	\includegraphics[width=4cm]{images/MainMenuEmpty.png}
@@ -447,14 +447,172 @@ Die Methode 'LevelsMenu' wechselt die Szene vom Hauptmenü des Spiels zur Szene 
 	\label{BuildSettings}
 \end{figure}
 
-Ist das Skript abgespeichert können nun die einzelnen Methoden den jeweiligen Buttons zugewiesen werden. Dafür im Inspector des Buttons in der Komponente 'Button (Script)' nach 'on Click()' suchen. Als Objekt muss nun das Script 'MainMenu' angegeben und die passende Methode ausgewählt werden, zu sehen in Abbildung \ref{onClickn}. Damit wäre das Hautmenü komplett implementiert.
+Ist das Skript abgespeichert, wird es als erstes dem Empty-Objekt als Komponente hinzugefügt, danach können nun die einzelnen Methoden den jeweiligen Buttons zugewiesen werden. Dafür im Inspector des Buttons in der Komponente 'Button' nach 'on Click()' suchen. Als Objekt muss nun das Script 'MainMenu' angegeben und die passende Methode ausgewählt werden, zu sehen in Abbildung \ref{onClickn}. Damit wäre das Hautmenü komplett implementiert.
 
 \begin{figure}[H]
 	\includegraphics[height=8cm]{images/ButtonScriptLevelsButton.png}
-	\caption{Einstellungen der 'Button (Script)' Komponente für den Levels-Button im Hauptmenü}
+	\caption{Einstellungen der 'Button' Komponente für den Levels-Button im Hauptmenü}
 	\label{onClick}
 \end{figure}
 
+\subsection{Level-Menü}
+Nun da das Hauptmenü abgeschlossen ist kann das Level-Menü entwickelt werden. Dieses zeigt alle vorhanden Levels an und ermöglicht es sie zu starten. 
+
+Auch hier wird als erstes wieder ein Panel-Objekt erstellt das den Hintergrund der Szene darstellt. Sobald das erledigt ist wird ein Text-Objekt welches die Überschrift der Szene mit dem Text 'Levels' erstellt und in die Linke Obere ecke gesetzt. Nun werden die Buttons erzeugt, als erstes jene für die jeweiligen Levels. Die Buttons für die Level haben die Maße eines quadrats bekommen, in ihnen wird lediglich die Zahl die das jeweilige Level repräsentiert gezeigt (zum Beispiel: 01). Die Buttons verhalten sich vom Farbwechsel her genau wie die des Hauptmenüs. Insgesamt wurden vier dieser Level-Buttons erstellt. Des weiteren ist es noch wichtig dem Benutzer eine Möglichkeit zu bieten wieder zurück ins Hauptmenü zu gelangen dies wurde mittels eines 'Back-Buttons' realisiert. Dieser wurde den Buttons in Form und Verhalten der Buttons des Hauptmenüs nach empfunden. Zu guter Letzt wurde noch ein Textfeld erstellt das den Benutzer darauf hinweist das noch weitere Levels in Zukunft kommen werden. Das fertige Level-Menü ist in Abbildung \ref{Levelmenu} veranschaulicht.
+
+\begin{figure}[H]
+	\includegraphics[height=8cm]{images/Levelmenu.png}
+	\caption{Level-Menü}
+	\label{Levelmenu}
+\end{figure}
+
+Damit die Buttons auch funktionieren wird zuerst ein Empty-Objekt erstellt und alle Buttons werden ihm hierarchisch untergeordnet. Das Skript wird wiederum dem Empty-Objekt als Komponente zugewiesen. Der Codes des Skripts ist in \cref{code:LevelMenu-Skript}
+
+\begin{lstlisting}[language={[Sharp]C}, caption=LevelMenu-Script, label=code:LevelMenu-Skript]
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class LevelMenu : MonoBehaviour {
+
+public void Level00()
+{
+SceneManager.LoadScene(2);
+}
+
+public void Level01()
+{
+SceneManager.LoadScene(1);
+}
+
+public void Level02()
+{
+SceneManager.LoadScene(3);
+}
+
+public void Level03()
+{
+SceneManager.LoadScene(4);
+}
+public void BackButton()
+{
+SceneManager.LoadScene(0);
+}
+
+}
+\end{lstlisting}
+
+Die in \cref{code:LevelMenu-Skript} gezeigten Methoden verwenden alle die Methode 'LoadScene()' der Unterschied zwischen ihnen liegt jedoch darin, dass jede von ihnen auf eine andere Szene Leitet.
+\section{Pause-Menü}
+Damit der Benutzer auch innerhalb eines Levels das Spiel beenden oder auch stoppen kann wurde das Pause Menü entwickelt. Es funktioniert in jedem Level exakt gleich deswegen wird es nur einmal beschrieben. 
+
+Der Spieler soll durch das Betätigen der Escape-Taste das Spiel anhalten können, dass sich die Spielfigur nicht mehr bewegt. Zusätzlich soll er die Optionen haben das Spiel fortzuführen oder zurück ins Hauptmenü zu gelangen. 
+
+Als erstes wird ein Canvas-Objekt im jeweiligen Level erstellt. Im 'Inspector' rechts muss sichergestellt werden, dass bei der Komponeten 'Canvas' im Canvas-Objekt die Eigenschaft 'Render Mode' auf 'Screen Space - Overlay' gesetzt wird und bei 'Pixel Perfect' der Hacken gesetzt ist zu sehen in Abbildung \ref{CanvasPause}. 
+
+
+\begin{figure}[H]
+	\includegraphics[width=10cm]{images/CanvasPause.png}
+	\caption{Einstellungen des Canvas-Objekts bei der Canvas-Komponente}
+	\label{CanvasPause}
+\end{figure}
+
+
+Danach wird ein Panel-Objekt erzeugt dessen Farbe auf ein transparentes Schwarz und die Eigenschaft 'Soruce Image' auf 'None' bei der 'Image'-Komponente gesetzt wird zu sehen in Abbildung \ref{Panel Pause}
+
+\begin{figure}[H]
+	\includegraphics[width=10cm]{images/PanelPause.png}
+	\caption{Einstellungen des Panel-Objekts bei der 'Image'-Komponente}
+	\label{Panel Pause}
+\end{figure}
+
+Der nächste Arbeitsschritt ist es eine Überschrift für das Menü zu erstellen. Der Text wird 'Pause' lauten, die Schriftgröße wird angepasst und er soll dieses mal einen Schatten bekommen. Dafür wird dem Objekt die Komponente 'Shadow' hinzugefügt, siehe Abbildung \ref{addshadow}.
+
+\begin{figure}[H]
+	\includegraphics[width=6cm]{images/addshadow.png}
+	\caption{Hinzufügen der 'Shadwo'-Komponente}
+	\label{addshadow}
+\end{figure}
+
+Nachdem die Komponente ergänzt wurde wird dessen Eigenschaft 'Effect Distance' beim X-Wert auf 4 und beim Y-Wert auf -4 eingestellt (Abb. \ref{shadowSetup}). Damit wäre dieser Teil des Menüs abgeschlossen.
+\begin{figure}[H]
+	\includegraphics[width=10cm]{images/shadowSetup.png}
+	\caption{Einstellungen der 'Shadwo'-Komponente}
+	\label{shadowSetup}
+\end{figure}
+
+Nun kommen die Buttons dran. Es werden zwei Buttons erstellt. Ein  'Back'-Button und ein 'Main Menu'-Button. 
+
+Im Puase-Menü wollen werden jedoch nicht die bisher verwendeten Buttons erstellt. Da das Spiel im Hintergrund es Menüs zu sehen ist soll der Rahmen sowie dessen Füllung transparent sein. Falls jedoch der Spieler mit der Maus über einen fährt soll dieser wieder schwach erkennbar sein und wenn der Button betätigt wird soll dessen Sichtbarkeit noch größer sein. Des weiteren bekommt auch die Schrift der Buttons eine 'Shadow'-Komponente mit den selben Einstellungen wie bei der Überschrift. 
+
+Damit die Transparenz der Buttons sich so verhaltet wie gewünscht wird der Alpha Wert der Farben 'Normal Color', 'Hihlighted Color', sowie 'Pressend Button' angepasst. Das heißt bei 'Normal Color' auf den Wert 0 und bei den anderen zum Beispiel auf 100 und 200. 
+
+Da das Menü nicht durchgehend zu sehen ist wird Das Panel-Objekt deaktiviert, dies ist mittels eines einfachen Mausklicks zu bewerkstelligen, siehe Abbildung \ref{deactivatePanel} rote Markierung.
+\begin{figure}[H]
+	\includegraphics[height=10cm]{images/deactivatePanel.png}
+	\caption{Deaktivieren des Panel-Objekts}
+	\label{deactivatePanel}
+\end{figure}
+
+Daraufhin wird bei dem Canvas-Objekt ein neues Skript hinzugefügt zu sehen in \cref{code:PauseMenu-Skript}.
+
+\begin{lstlisting}[language={[Sharp]C}, caption=PauseMenu-Skript, label=code:PauseMenu-Skript]
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class PauseMenu : MonoBehaviour {
+
+public static bool isPaused = false;
+public GameObject PauseMenuUI;
+
+// Update is called once per frame
+void Update () {
+if(Input.GetKeyDown(KeyCode.Escape))
+{
+if (isPaused)
+{
+Resume();
+}
+else
+{
+Pause();
+}
+}
+}
+
+public void Resume ()
+{
+PauseMenuUI.SetActive(false);
+Time.timeScale = 1f;
+isPaused = false;
+}
+
+private void Pause()
+{
+PauseMenuUI.SetActive(true);
+Time.timeScale = 0f;
+isPaused = true;
+}
+
+public void MainMenu ()
+{
+SceneManager.LoadScene(0);
+}
+}
+\end{lstlisting}
+Beim Script \cref{code:PauseMenu-Skript} gibt es einige Besonderheiten. als erstes ist zu sehen das alle Eigenschaften der Klasse auf 'public' gesetzt sind. Dies ist normalerweise untypisch jedoch erleichtert es die Arbeit mit Unity sehr stark da so auch über die GUI des Unity-Editors auf die Eigenschaften zugegriffen werden kann und so sich viele neue Möglichkeiten bilden. Die Eigenschaft 'PauseMenuUI' bekommt dann das Panel-Objekt zugewiesen.
+
+In der Methode 'Update()', welche während jedem Frame aufgerufen wird, wird mittels If-Abfrage überprüft ob die Escape-Taste gedrückt wird, wenn ja soll der Status des Spiels abgefragt werden. Ist das Spiel bereits pausiert wird es wieder gestartet und das Panel-Objekt wird wieder deaktiviert. Falls es jedoch lauft wird es gestoppt und das Pause-Menü wird aktiv. Der Stopp wird realisieren durch das setzen von 'timeScale' auf 0, wenn es auf 1 gesetzt wird geht das Spiel wieder weiter.
+
+Zu guter Letzt ist noch die Methode des Hauptmenü-Buttons zu sehen, welche ihm später wieder zugewiesen wird. Der 'Back'-Button ferwendet die 'Resume()'-Methode.
+
+\begin{figure}[H]
+	\includegraphics[height=10cm]{images/PauseMenu.png}
+	\caption{Pause Menü}
+\end{figure}
 
 \section{Leveldesign}
 \subsection{Player}
@@ -466,7 +624,7 @@ Das Level Design ist durch Unity sehr einfach gestaltet. Alle verwenden Graphike
 Für den Player wurde ein Cube-Objekt erstellt.
 \begin{figure}[H]
 	\includegraphics[height=8cm]{images/Player.png}
-	\caption{Komponenten des Player-Objekt}
+	\caption{Komponenten des Player-Objekts}
 \end{figure}
 Der Player besteht aus mehreren Komponenten. Unter anderem der Box Collider 2D, welcher für die Kollisionen zuständig ist. Der Box Collider muss auf die Größe des Players angepasst werden. 
 \begin{figure}[H]

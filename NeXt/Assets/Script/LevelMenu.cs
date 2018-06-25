@@ -15,6 +15,15 @@ public class LevelMenu : MonoBehaviour {
         SceneManager.LoadScene(1);
     }
 
+    public void Level02()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void Level03()
+    {
+        SceneManager.LoadScene(4);
+    }
     public void BackButton()
     {
         SceneManager.LoadScene(0);

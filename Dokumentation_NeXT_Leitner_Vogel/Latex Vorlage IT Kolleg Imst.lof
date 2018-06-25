@@ -23,21 +23,28 @@
 \contentsline {figure}{\numberline {6.1}{\ignorespaces UML-Diagramm der Klassen\relax }}{40}{figure.caption.33}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Hauptmen\IeC {\"u}\relax }}{41}{figure.caption.34}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Anlegen einer Panel-Komponente\relax }}{42}{figure.caption.35}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Einstellung des Canvas-Komponente im Hauptmen\IeC {\"u}\relax }}{43}{figure.caption.36}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Einstellung der Panel-Komponente im Hauptmen\IeC {\"u}\relax }}{44}{figure.caption.37}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Einstellung der Text-Komponente im Hauptmen\IeC {\"u}\relax }}{45}{figure.caption.38}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Anlegen eines Panel-Objekts\relax }}{42}{figure.caption.35}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Einstellung des Canvas-Objekts im Hauptmen\IeC {\"u}\relax }}{43}{figure.caption.36}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Einstellung des Panel-Objekts im Hauptmen\IeC {\"u}\relax }}{44}{figure.caption.37}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Einstellungen des Text-Objekts im Hauptmen\IeC {\"u}\relax }}{45}{figure.caption.38}
 \contentsline {figure}{\numberline {7.6}{\ignorespaces Farbwechsel des Buttons im Hauptmen\IeC {\"u} beim Klicken\relax }}{46}{figure.caption.39}
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Teil der Hierarchie des UI im Hauptmen\IeC {\"u}.\relax }}{46}{figure.caption.40}
 \contentsline {figure}{\numberline {7.8}{\ignorespaces Anlegen eines C\# Scripts im Unity-Editor\relax }}{47}{figure.caption.41}
 \contentsline {figure}{\numberline {7.9}{\ignorespaces Ausschnitt der Build Settings des Unity-Editors\relax }}{48}{figure.caption.42}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Einstellungen der 'Button (Script)' Komponente f\IeC {\"u}r den Levels-Button im Hauptmen\IeC {\"u}\relax }}{48}{figure.caption.43}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Hierarchie der Ground Szene\relax }}{49}{figure.caption.44}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Komponenten des Player-Objekt\relax }}{50}{figure.caption.45}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Sprite Renderer Komponente von Player\relax }}{50}{figure.caption.46}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Aufbau des Ridigbody2D Containers\relax }}{54}{figure.caption.47}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces T\IeC {\"u}r geschlossen\relax }}{57}{figure.caption.48}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces T\IeC {\"u}r ge\IeC {\"o}ffnet\relax }}{57}{figure.caption.49}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Einstellungen der 'Button' Komponente f\IeC {\"u}r den Levels-Button im Hauptmen\IeC {\"u}\relax }}{48}{figure.caption.43}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Level-Men\IeC {\"u}\relax }}{49}{figure.caption.44}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Einstellungen des Canvas-Objekts bei der Canvas-Komponente\relax }}{51}{figure.caption.45}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Einstellungen des Panel-Objekts bei der 'Image'-Komponente\relax }}{51}{figure.caption.46}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Hinzuf\IeC {\"u}gen der 'Shadwo'-Komponente\relax }}{52}{figure.caption.47}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Einstellungen der 'Shadwo'-Komponente\relax }}{52}{figure.caption.48}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Deaktivieren des Panel-Objekts\relax }}{53}{figure.caption.49}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Pause Men\IeC {\"u}\relax }}{55}{figure.caption.50}
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Hierarchie der Ground Szene\relax }}{56}{figure.caption.51}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Komponenten des Player-Objekts\relax }}{57}{figure.caption.52}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Sprite Renderer Komponente von Player\relax }}{57}{figure.caption.53}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Aufbau des Ridigbody2D Containers\relax }}{61}{figure.caption.54}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces T\IeC {\"u}r geschlossen\relax }}{64}{figure.caption.55}
+\contentsline {figure}{\numberline {7.23}{\ignorespaces T\IeC {\"u}r ge\IeC {\"o}ffnet\relax }}{64}{figure.caption.56}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
