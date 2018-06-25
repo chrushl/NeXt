@@ -53,6 +53,8 @@
 \contentsline {subsection}{\numberline {6.1.7}Desing der Ausf\IeC {\"u}hrungsumgebung}{40}{subsection.6.1.7}
 \contentsline {section}{\numberline {6.2}Detailentwurf}{40}{section.6.2}
 \contentsline {chapter}{\numberline {7}Implementierung}{42}{chapter.7}
+\contentsline {section}{\numberline {7.1}GUI}{42}{section.7.1}
+\contentsline {section}{\numberline {7.2}Leveldesign}{42}{section.7.2}
 \contentsline {chapter}{\numberline {8}Tests}{43}{chapter.8}
 \contentsline {section}{\numberline {8.1}Systemtests}{43}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.1}Einf\IeC {\"u}hrung}{43}{subsection.8.1.1}
