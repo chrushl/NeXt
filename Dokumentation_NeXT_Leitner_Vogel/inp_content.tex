@@ -3,10 +3,6 @@
 \def \currentAuthor {Lukas Vogel} %so kann jederzeit der Autor geändert werden -> wird in der Fusszeile angezeigt.
 
 
-
-\chapter*{Notationen}
-Beschreibung wie Code, Hinweise, Zitate etc. formatiert werden  
-
 \chapter{Einleitung}
 Diese Diplomarbeit befasst sich mit der Entwicklung des Prototyps: NeXt. Das Produkt ist eine spielbare Version eines Computerspiels in dem sogenannte Jump and Run-Elemente, Puzzele-Elemente sowie Zeitmanagement-Elemente beinhaltet sind. Das Projekt wurde in Verbindung mit der Firma ClockStone Softwareentwicklung GmbH. erarbeitet. Interesse könnte diese Dokumentation bei jedem erwecken,	 der sich über Spielentwicklung in Verbindung mit der Unity-Engine  informieren will. Des Weiteren werden auch die Aspekte des Projektmanagements dieser Arbeit dargelegt.  
 
@@ -311,21 +307,21 @@ Im folgenden Teil der Dokumentation sind verschiedene Wireframes der Benutzerobe
 	\caption{Wireframe-Hauptmenü}
 	\label{WireframeMainmenu}
 \end{figure}
-In Abbildung \ref{WireframeMainmenu} ist der erste Entwurf für das Hauptmenü des Spiels zu sehen. Diese Ansicht ist die Erste die der Benutzer sehen soll wenn er das Computerspiel startet. Das Menü ist sehr einfach gehalten. Es gibt ein Textfeld welches "NeXt" anzeigt und darunter zwei Buttons. Der obere Button soll  den Spieler in das Menü der Levels leiten, siehe Abbildung \ref{WireframeLevelsmenu}. Der untere Button soll  die Applikation schließen.
+In Abbildung \ref{WireframeMainmenu} ist der erste Entwurf für das Hauptmenü des Spiels zu sehen. Diese Ansicht ist die Erste die der Benutzer sehen soll wenn er das Computerspiel startet. Das Menü ist sehr einfach gehalten. Es gibt ein Textfeld welches 'NeXt' anzeigt und darunter zwei Buttons. Der obere Button soll  den Spieler in das Menü der Levels leiten, siehe Abbildung \ref{WireframeLevelsmenu}. Der untere Button soll  die Applikation schließen.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=16cm, height=9cm]{images/WireframeLevelsmenu.png}
 	\caption{Wireframe-Levelmenü}
 	\label{WireframeLevelsmenu}
 \end{figure}
-Das nächste Wireframe in Abbildung \ref{WireframeLevelsmenu} zeigt eine Übersicht aller Spielbaren Levels welche als Nummerierte Buttons dargestellt werden. Wenn der Benutzer einen Level-Button betätigt soll  sofort das gewählte Level starten. Der Button rechts unten mit der Beschriftung "Back" soll den Spieler wieder zurück in das Hauptmenü führen. 
+Das nächste Wireframe in Abbildung \ref{WireframeLevelsmenu} zeigt eine Übersicht aller Spielbaren Levels welche als Nummerierte Buttons dargestellt werden. Wenn der Benutzer einen Level-Button betätigt soll  sofort das gewählte Level starten. Der Button rechts unten mit der Beschriftung 'Back' soll den Spieler wieder zurück in das Hauptmenü führen. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=16cm, height=9cm]{images/WireframePausemenu.png}
 	\caption{Wireframe-Pausemenü}
 	\label{WireframePausemenu}
 \end{figure}
-Sobald der Benutzer sich in einem Level befindet soll er die Möglichkeit habben, mittels Escape-Taste das Spiel stoppen und in das Pausemenü wechseln. Das Wireframe dazu ist in Abbildung \ref{WireframePausemenu} zu sehen. Die graue Fläche soll dabei das Level darstellen welches im Hintergrund immer noch zu sehen sein soll. Zusätzlich sind noch zwei Buttons zu sehen der erste Button mit dem Text "Back" soll das Menü wieder schließen und das Spiel weiter laufen lassen. Der Zweite welcher mit der Beschriftung "Main Menu" versehen ist soll denn Benutzer wieder in die Ansicht des Hauptmenüs, Abbildung \ref{WireframeMainmenu} bringen. 
+Sobald der Benutzer sich in einem Level befindet soll er die Möglichkeit habben, mittels Escape-Taste das Spiel stoppen und in das Pausemenü wechseln. Das Wireframe dazu ist in Abbildung \ref{WireframePausemenu} zu sehen. Die graue Fläche soll dabei das Level darstellen welches im Hintergrund immer noch zu sehen sein soll. Zusätzlich sind noch zwei Buttons zu sehen der erste Button mit dem Text 'Back' soll das Menü wieder schließen und das Spiel weiter laufen lassen. Der Zweite welcher mit der Beschriftung 'Main Menu' versehen ist soll denn Benutzer wieder in die Ansicht des Hauptmenüs, Abbildung \ref{WireframeMainmenu} bringen. 
 \chapter{Systementwurf}
 
 \section{Architektur}
@@ -338,27 +334,115 @@ UML!!!
 
 \chapter{Implementierung}
 \section{GUI}
+Das Griphical User Interface des Spiels wurde sehr einfach gehalten, da es sich um eine Prototyp handelt.
+\subsection{Hauptmenü}
+Das Hauptmenü besteht aus einem Text und zwei Buttons, zu sehen in Abb.\ref{Mainmenu}. Damit das Menü das gezeigte Aussehen hat sind folgende Arbeitsschritte zu machen
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=8cm]{images/Mainmenu.png}
+	\caption{Hauptmenü}
+	\label{Mainmenu}
+\end{figure}
+Als erstes wird eine leere Szene benötigt. Dafür kann einfach die Tastenkombination Strg. + C gedrückt werden oder unter dem Menü links oben von Unity-Editor File --> New Scene.
+
+Wenn die neue Szenen angelegt ist mittels Rechtsklick in der Hierarchie der Szene eine neue Panel-Komponente anlegen, Abbildung \ref{PanelAnlegen}. Durch das Anlegen eines Panels wird auch automatisch eine Canvas-Komponente erstellt, welches hierarchisch gesehen über dem Panel steht.
+
+\begin{figure}[H]
+
+	\includegraphics[height=8cm]{images/PanelAnlegen.png}
+	\caption{Anlegen einer Panel-Komponente}
+	\label{PanelAnlegen}
+\end{figure}
+Bei der Canvas-Komponenten müssen die Einstellungen von Abb. \ref{CanvasSetup} getroffen werden damit sie das gewünschte verhalten erbringt.
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=8cm]{images/CanvasSetup.png}
+	\caption{Einstellung des Canvas-Komponente im Hauptmenü}
+	\label{CanvasSetup}
+\end{figure}
+Wenn diese Einstellung alle übereinstimmen ist der nächste schritt das bearbeiten des Panels. Hier muss al erstes die Hintergrundfarbe des Menüs festgelegt werden. Dies ist möglich unter bei der Komponente 'Image (Script)'. Wahlweise kann nun eine Grafik als Attribut 'Source Image' gewählt werden oder man verwendet nur eine Farbe wie in unserem Fall um den Hintergrund des Menüs darzustellen. Darüber hinaus wäre es noch möglich einen speziellen Effekt zu beim Hintergrund zu erzielen mittels der 'Material' Eigenschaft. Alle Eigenschaften für die Panel-Komponente sind in Abbildung \ref{PanelSetup} zu sehen.
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=8cm]{images/PanelSetup.png}
+	\caption{Einstellung der Panel-Komponente im Hauptmenü}
+	\label{PanelSetup}
+\end{figure}
+
+Sobald die Panel-Komponente fertig konfiguriert ist geht es an die nächste Arbeit. Als erstes wird ein Textfeld erstellt welches mittels Rechtsklick in der Hierarchie links, unter dem UI zu finden ist.
+
+Das Textfeld ist eine einfach aufgebaute Komponente hier wurde ledeglich der Text 'NeXt' beim Attribut Text angegeben und die Schriftgröße auf 30 erhöht, zu sehen in Abbildung \ref{TextSetupMainMenu}
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=8cm]{images/MainMenuTextSetup.png}
+	\caption{Einstellung der Text-Komponente im Hauptmenü}
+	\label{TextSetupMainMenu}
+\end{figure}
+ Darauf hin wurden die Buttons,wie die anderen Komponenten, hinzugefügt. Der Button welcher später zum Level-Menü führt wurde bewusst größer gemacht wie der 'Quit'-Button der das Spiel schließt, da so dem Spieler die Auswahl der Levels besser in Auge sticht. Eine Button-Komponente hat in der Hierarchie unter sich immer eine Text-Komponente, wenn sie neu erstellt wird, Diese Textfeld ist die Beschriftung des Buttons. Da wir uns für einen grauen Hintergrund entschieden wurde der Text der Buttons weiß. Die Buttons selbst haben, je nach Position des Mauszeigers, verschiedene Farben . Für das Attribut 'Normal Color' wählten wir schwarz und wenn der Button gedrückt wird ändert sich seine Farbe auf ein dunkles Grau (Attribut: 'Pressed Color'). Dieses verhalten wird in Abbildung \ref{ButtonClicked} veranschaulicht.
+ 
+  \begin{figure}[H]
+  	\centering
+  	\includegraphics[width=10cm]{images/ButtonsClicked.png}
+  	\caption{Farbwechsel des Buttons im Hauptmenü beim Klicken}
+  	\label{ButtonClicked}
+  \end{figure}
+
+Ist das Einreichen soweit erreicht geht es darum das Verhalten der Buttons bei einem Click-Event zu steuern. Damit für jeden Button nicht extra ein Skript erstellt werden muss erstellen wir als erstes eine sogenannte 'Empty Komponente' welche wie der Name schon sagt leer ist. Danach werden die beiden Buttons in der Hierarchie unter die neu generierte Komponente gestellt. Dieser Schritt ist in Abb. \ref{MainMenuEmpty} zu sehen wobei 'MainMenu' die Empty-Komponente, 'Background' das Panel und 'LevelsButton' sowie 'QuitButton' die Buttons darstellt.
+
+\begin{figure}[H]
+	\includegraphics[width=4cm]{images/MainMenuEmpty.png}
+	\caption{Teil der Hierarchie des UI im Hauptmenü.}
+	\label{MainMenuEmpty}
+\end{figure}
+Nun wurde ein neues Skript im gewünschten Ordner angelegt bei uns hat er den Namen 'Script'. In der Projektstruktur unten einfach mittels Rechtsklick ein C\# Skript anlegen (Abbildung \ref{addScript}). Sobald es erstellt ist muss es nur noch Programm Code hinein.
+
+\begin{figure}[H]
+	\includegraphics[height=8cm]{images/addScript.png}
+	\caption{Anlegen eines C\# Scripts im Unity-Editor}
+	\label{addScript}
+\end{figure}
+
+Im Script 'MainMenu' ist der folgende (\cref{code:MaineMenuScript}) Code Enthalten.
+
+\begin{lstlisting}[language={[Sharp]C}, caption=MainMenu-Script, label=code:MaineMenuScript]
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MainMenu : MonoBehaviour {
+
+public void LevelsMenu()
+{
+SceneManager.LoadScene(1);
+}
+
+public void quitGame()
+{
+
+Application.Quit();
+}
+}
+
+\end{lstlisting}
+
+Die Methode 'LevelsMenu' wechselt die Szene vom Hauptmenü des Spiels zur Szene 'LevelMenu' dies wird über die Methode 'Load Scene(1)' gemacht. Die Zahl 1 die als Parameter mit gegeben wird steht für den Index des Levels Menüs welcher in den 'Build Settings' (Abb. \ref{BuildSettings}) festgelegt werden kann. Die Methode 'quitGame()' schließt die gesamte Applikation.
+\begin{figure}[H]
+	\includegraphics[width=10cm]{images/BuildSettings.png}
+	\caption{Ausschnitt der Build Settings des Unity-Editors}
+	\label{BuildSettings}
+\end{figure}
+
+Ist das Skript abgespeichert können nun die einzelnen Methoden den jeweiligen Buttons zugewiesen werden. Dafür im Inspector des Buttons in der Komponente 'Button (Script)' nach 'on Click()' suchen. Als Objekt muss nun das Script 'MainMenu' angegeben und die passende Methode ausgewählt werden, zu sehen in Abbildung \ref{onClickn}. Damit wäre das Hautmenü komplett implementiert.
+
+\begin{figure}[H]
+	\includegraphics[height=8cm]{images/ButtonScriptLevelsButton.png}
+	\caption{Einstellungen der 'Button (Script)' Komponente für den Levels-Button im Hauptmenü}
+	\label{onClick}
+\end{figure}
+
+
 \section{Leveldesign}
-
-\begin{itemize}
-	\item GUI-Implementierung
-	\item Controllerlogik
-	\item Geschäftslogik
-	\item Datenbankzugriffe
-\end{itemize}
-
-Detaillierte Beschreibung der Teststrategie (Testdriven Development):
-
-\begin{itemize}
-	\item UNIT-Tests (Funktional)
-	\item Integrationstests
-\end{itemize}
-
-Zu Codesequenzen:
-\begin{itemize}	\item kurze Codesequenzen direkt im Text (mit Zeilnnummern auf die man in der Beschreibung verweisen kann)
-	\item lange Codesequenzen in den Anhang (mit Zeilennummer) und darauf verweisen 
-\end{itemize}
-
 \section{Unity-Klassenstruktur}
 \subsection{MonoBehaviour}	
 Die Klasse „MonoBehaviour“ ist eine Standardklasse, die von der Unity3D-Engine bereitgestellt wird. Jedes Skript, welches in Unity verwendet wird, muss von dieser Klasse erben (Ähnlich wie in Java die „Object-Klasse“ von jeder Klasse gerbt wird). MonoBehaviour gibt folgende Methoden zur Verfügung:
