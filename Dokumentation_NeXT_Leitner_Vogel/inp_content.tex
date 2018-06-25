@@ -231,6 +231,16 @@ Der Projektstrukturplan, zu sehen in Abbildung \ref{Projektstrukturplan}, soll d
 	\item 15.06.2018 Fertigstellung der Dokumentation, Übergabe an den Auftraggeber
 \end{itemize}
 \subsection{Gant-Chart}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=4cm]{images/Vorgaenge.png}
+	\caption{Vorgänge des Gantt Charts}		
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=4cm]{images/Gantt.png}
+	\caption{Gantt Chart}		
+\end{figure}
 
 \subsection{Pläne zur Evaluierung}
 \subsection{Ergänzungen und zu klärende Punkte}
@@ -330,7 +340,11 @@ Sobald der Benutzer sich in einem Level befindet soll er die Möglichkeit habben
 In der Unity3D Entwicklungsumgebung werden keine Klassischen Architekturmuster verwendet. Wenn ein bestimmtes Objekt ein Skript benötigt, wird ihm dieses Skript angehängt. Jedoch wurden für das TimeRift-Prinzip mehrere Klassen verwendet.
 
 
-UML!!!
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=4cm]{images/UML.png}
+	\caption{UML-Diagramm der Klassen}		
+\end{figure}
 
 \chapter{Implementierung}
 \section{GUI}
@@ -443,6 +457,36 @@ Ist das Skript abgespeichert können nun die einzelnen Methoden den jeweiligen B
 
 
 \section{Leveldesign}
+\subsection{Player}
+Das Level Design ist durch Unity sehr einfach gestaltet. Alle verwenden Graphiken sind nur als Platzhalter verwendet worden.
+\begin{figure}[H]
+	\includegraphics[height=8cm]{images/Ground.png}
+	\caption{Hierarchie der Ground Szene}
+\end{figure}
+Für den Player wurde ein Cube-Objekt erstellt.
+\begin{figure}[H]
+	\includegraphics[height=8cm]{images/Player.png}
+	\caption{Komponenten des Player-Objekt}
+\end{figure}
+Der Player besteht aus mehreren Komponenten. Unter anderem der Box Collider 2D, welcher für die Kollisionen zuständig ist. Der Box Collider muss auf die Größe des Players angepasst werden. 
+\begin{figure}[H]
+	\includegraphics[height=8cm]{images/SpriteRenderer.png}
+	\caption{Sprite Renderer Komponente von Player}
+\end{figure}
+Die Sprite Renderer Komponente ist für die Graphische Darstellung des Players verantwortlich. In diesem Fall ist dies eine durchgehend rote Farbe.
+
+\subsection{Directional light}
+Damit man als Spieler überhaupt was sehen kann, muss eine Lichtquelle in dem Level platziert werden.
+Bild von Komponenten
+In der Light-Komponente können verschiedene Eigenschaften verändert werden, wie zum Beispiel die Intensity, welche für die Stärke des Lichtes verantwortlich ist.
+\subsection{Main Camera}
+Ein weiterer Faktor zu sehen des Levels ist die Kamera. Wichtig hier ist, dass man eine geeignete Entfernung wählt, damit man nicht zu wenig oder zu viel sehen kann.
+\subsection{LevelObjects}
+Bei den LevelObjects handelt es sich um Objekte die Im Level vorkommen, wie der Boden oder Wände. Hierzu werden einzelne Cube-Objekte erschaffen und diese zu Gruppe verbunden. In der Gruppe wird dann der Box Collider 2D hinzugefügt, damit die Objekte eine Kollision mit dem Spieler haben. Auch aber das Ziel zählt unter LevelObjects, wie hier eine Kiste als Platzhalter. Bei der Kiste wurde nur noch ein Skript beigehängt, welches dafür sorgt, dass wenn der Spieler das Ziel erreicht, er zurück zum Level Menü kommt.
+\subsection{Falldetector}
+Bei dem Falldetector handelt es sich um eine Unsichtbares Objekt, welches ebenso einen Box Collider hat. Das Skript das dem Player angehängt ist, erkennt ob er dieses Objekt berührt und setzt den Spieler auf die Startposition zurück.
+
+
 \section{Unity-Klassenstruktur}
 \subsection{MonoBehaviour}	
 Die Klasse „MonoBehaviour“ ist eine Standardklasse, die von der Unity3D-Engine bereitgestellt wird. Jedes Skript, welches in Unity verwendet wird, muss von dieser Klasse erben (Ähnlich wie in Java die „Object-Klasse“ von jeder Klasse gerbt wird). MonoBehaviour gibt folgende Methoden zur Verfügung:
@@ -538,7 +582,14 @@ Door.transform.position = Vector3.MoveTowards(Door.transform.position, target.po
 }
 \end{lstlisting}
 
-Bilder Einfügen
+\begin{figure}[H]
+	\includegraphics[height=8cm]{images/TuerZu.png}
+	\caption{Tür geschlossen}
+\end{figure}
+\begin{figure}[H]
+	\includegraphics[height=8cm]{images/TuerOffen.png}
+	\caption{Tür geöffnet}
+\end{figure}
 
 \section{TimeRift}
 Das TimeRift-Prinzip ist die Grundlegende Funktion in diesem Projekt. Während des erstens Durchlaufes des Spielers, werden in jedem Frame die Koordinaten des Charakters gespeichert.
