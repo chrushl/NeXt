@@ -2,23 +2,36 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Lukas Vogel\relax }}{17}{figure.caption.13}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Michael Leitner\relax }}{18}{figure.caption.14}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Mag. Claudio Landerer\relax }}{19}{figure.caption.15}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces ClockStone Softwareentwicklung GmbH\relax }}{20}{figure.caption.16}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Michael Schiestl\relax }}{20}{figure.caption.17}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Stakeholder-Diagramm\relax }}{23}{figure.caption.21}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Matrix zur qualitativen Einordnung von Risiken\relax }}{24}{figure.caption.22}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Projektstrukturplan\relax }}{29}{figure.caption.26}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Lukas Vogel\relax }}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Michael Leitner\relax }}{17}{figure.caption.13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Mag. Claudio Landerer\relax }}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces ClockStone Softwareentwicklung GmbH\relax }}{19}{figure.caption.15}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Michael Schiestl\relax }}{19}{figure.caption.16}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Stakeholder-Diagramm\relax }}{22}{figure.caption.20}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Matrix zur qualitativen Einordnung von Risiken\relax }}{23}{figure.caption.21}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Projektstrukturplan\relax }}{28}{figure.caption.25}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces USE-Case-Diagramm\relax }}{36}{figure.caption.28}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Wireframe-Hauptmen\IeC {\"u}\relax }}{37}{figure.caption.29}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Wireframe-Levelmen\IeC {\"u}\relax }}{38}{figure.caption.30}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Wireframe-Pausemen\IeC {\"u}\relax }}{39}{figure.caption.31}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces USE-Case-Diagramm\relax }}{35}{figure.caption.27}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Wireframe-Hauptmen\IeC {\"u}\relax }}{36}{figure.caption.28}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Wireframe-Levelmen\IeC {\"u}\relax }}{37}{figure.caption.29}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Wireframe-Pausemen\IeC {\"u}\relax }}{38}{figure.caption.30}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Aufbau des Ridigbody2D Containers\relax }}{44}{figure.caption.32}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Hauptmen\IeC {\"u}\relax }}{40}{figure.caption.31}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Anlegen einer Panel-Komponente\relax }}{41}{figure.caption.32}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Einstellung des Canvas-Komponente im Hauptmen\IeC {\"u}\relax }}{42}{figure.caption.33}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Einstellung der Panel-Komponente im Hauptmen\IeC {\"u}\relax }}{43}{figure.caption.34}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Einstellung der Text-Komponente im Hauptmen\IeC {\"u}\relax }}{44}{figure.caption.35}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Farbwechsel des Buttons im Hauptmen\IeC {\"u} beim Klicken\relax }}{45}{figure.caption.36}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Teil der Hierarchie des UI im Hauptmen\IeC {\"u}.\relax }}{45}{figure.caption.37}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Anlegen eines C\# Scripts im Unity-Editor\relax }}{46}{figure.caption.38}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Ausschnitt der Build Settings des Unity-Editors\relax }}{47}{figure.caption.39}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Einstellungen der 'Button (Script)' Komponente f\IeC {\"u}r den Levels-Button im Hauptmen\IeC {\"u}\relax }}{47}{figure.caption.40}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Aufbau des Ridigbody2D Containers\relax }}{50}{figure.caption.41}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
