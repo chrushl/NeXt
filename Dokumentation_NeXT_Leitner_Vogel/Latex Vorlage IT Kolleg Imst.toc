@@ -25,64 +25,63 @@
 \contentsline {subsection}{\numberline {2.4.3}Gant-Chart}{30}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}Pl\IeC {\"a}ne zur Evaluierung}{30}{subsection.2.4.4}
 \contentsline {subsection}{\numberline {2.4.5}Erg\IeC {\"a}nzungen und zu kl\IeC {\"a}rende Punkte}{30}{subsection.2.4.5}
-\contentsline {chapter}{\numberline {3}Vorstellung des Produktes}{31}{chapter.3}
-\contentsline {section}{\numberline {3.1}Produktbeschreibung}{31}{section.3.1}
-\contentsline {chapter}{\numberline {4}Eingesetzte Technologien}{32}{chapter.4}
-\contentsline {section}{\numberline {4.1}Engine}{32}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Spiel-Engine}{32}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Unity-Engine}{32}{subsection.4.1.2}
-\contentsline {subsubsection}{\nonumberline Technische Eigenschaften}{33}{section*.28}
-\contentsline {section}{\numberline {4.2}Entwicklungsumgebung}{34}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Unity-Editor}{34}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Visual Studio}{34}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}C\#}{34}{section.4.3}
-\contentsline {section}{\numberline {4.4}Dokumentation}{34}{section.4.4}
-\contentsline {chapter}{\numberline {5}Problemanalyse}{36}{chapter.5}
-\contentsline {section}{\numberline {5.1}USE-Case-Analyse}{36}{section.5.1}
-\contentsline {section}{\numberline {5.2}Domain-Class-Modelling}{37}{section.5.2}
-\contentsline {section}{\numberline {5.3}User-Interface-Design}{37}{section.5.3}
-\contentsline {chapter}{\numberline {6}Systementwurf}{40}{chapter.6}
-\contentsline {section}{\numberline {6.1}Architektur}{40}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Design der Komponenten}{40}{subsection.6.1.1}
-\contentsline {chapter}{\numberline {7}Implementierung}{41}{chapter.7}
-\contentsline {section}{\numberline {7.1}GUI}{41}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Hauptmen\IeC {\"u}}{41}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Level-Men\IeC {\"u}}{49}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Pause-Men\IeC {\"u}}{51}{section.7.2}
-\contentsline {section}{\numberline {7.3}Leveldesign}{56}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Player}{56}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Directional light}{58}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Main Camera}{58}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}LevelObjects}{58}{subsection.7.3.4}
-\contentsline {subsection}{\numberline {7.3.5}Falldetector}{58}{subsection.7.3.5}
-\contentsline {section}{\numberline {7.4}Unity-Klassenstruktur}{59}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}MonoBehaviour}{59}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Start-Methode}{59}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Update-Methode}{60}{subsection.7.4.3}
-\contentsline {subsection}{\numberline {7.4.4}FixedUpdate-Methode}{60}{subsection.7.4.4}
-\contentsline {subsection}{\numberline {7.4.5}LateUpdate-Methode}{60}{subsection.7.4.5}
-\contentsline {section}{\numberline {7.5}Spieler}{60}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}PlayerController}{61}{subsection.7.5.1}
-\contentsline {section}{\numberline {7.6}Kameraf\IeC {\"u}hrung}{62}{section.7.6}
-\contentsline {section}{\numberline {7.7}Schalter und T\IeC {\"u}ren}{63}{section.7.7}
-\contentsline {section}{\numberline {7.8}TimeRift}{65}{section.7.8}
-\contentsline {chapter}{\numberline {8}Tests}{67}{chapter.8}
-\contentsline {section}{\numberline {8.1}Systemtests}{67}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Einf\IeC {\"u}hrung}{67}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Testf\IeC {\"a}lle}{67}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}Akzeptanztests}{67}{section.8.2}
-\contentsline {chapter}{\numberline {9}Projektevaluation}{72}{chapter.9}
-\contentsline {section}{\numberline {9.1}Arbeitsaufwand}{72}{section.9.1}
-\contentsline {section}{\numberline {9.2}Zusammenarbeit}{72}{section.9.2}
-\contentsline {section}{\numberline {9.3}Zeitmanagement}{73}{section.9.3}
-\contentsline {section}{\numberline {9.4}Produktevaluierung}{73}{section.9.4}
-\contentsline {section}{\numberline {9.5}Kosten}{74}{section.9.5}
-\contentsline {section}{\numberline {9.6}Erfahrungen}{74}{section.9.6}
-\contentsline {section}{\numberline {9.7}Fazit}{74}{section.9.7}
-\contentsline {chapter}{\numberline {10}Zusammenfassung}{75}{chapter.10}
-\contentsline {section}{\numberline {10.1}Res\IeC {\"u}mee}{75}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}Res\IeC {\"u}mee (Leitner Michael)}{75}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}Res\IeC {\"u}mee (Vogel Lukas)}{76}{subsection.10.1.2}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{78}{chapter*.61}
-\contentsline {chapter}{\numberline {A}Anhang-Kapitel}{79}{appendix.A}
-\contentsline {section}{\numberline {A.1}Anhang-Section}{79}{section.A.1}
+\contentsline {chapter}{\numberline {3}Vorstellung des Produktes}{32}{chapter.3}
+\contentsline {section}{\numberline {3.1}Produktbeschreibung}{32}{section.3.1}
+\contentsline {chapter}{\numberline {4}Eingesetzte Technologien}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}Engine}{33}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Spiel-Engine}{33}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Unity-Engine}{33}{subsection.4.1.2}
+\contentsline {subsubsection}{\nonumberline Technische Eigenschaften}{34}{section*.28}
+\contentsline {section}{\numberline {4.2}Entwicklungsumgebung}{35}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Unity-Editor}{35}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Visual Studio}{35}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}C\#}{35}{section.4.3}
+\contentsline {section}{\numberline {4.4}Dokumentation}{35}{section.4.4}
+\contentsline {chapter}{\numberline {5}Problemanalyse}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}USE-Case-Analyse}{37}{section.5.1}
+\contentsline {section}{\numberline {5.2}User-Interface-Design}{38}{section.5.2}
+\contentsline {chapter}{\numberline {6}Systementwurf}{41}{chapter.6}
+\contentsline {section}{\numberline {6.1}Architektur}{41}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Design der Komponenten}{41}{subsection.6.1.1}
+\contentsline {chapter}{\numberline {7}Implementierung}{42}{chapter.7}
+\contentsline {section}{\numberline {7.1}GUI}{42}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Hauptmen\IeC {\"u}}{42}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Level-Men\IeC {\"u}}{50}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Pause-Men\IeC {\"u}}{52}{section.7.2}
+\contentsline {section}{\numberline {7.3}Leveldesign}{57}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Player}{57}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Directional light}{59}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Main Camera}{59}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}LevelObjects}{60}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.5}Falldetector}{60}{subsection.7.3.5}
+\contentsline {section}{\numberline {7.4}Unity-Klassenstruktur}{60}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}MonoBehaviour}{60}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Start-Methode}{61}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Update-Methode}{61}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.4}FixedUpdate-Methode}{61}{subsection.7.4.4}
+\contentsline {subsection}{\numberline {7.4.5}LateUpdate-Methode}{61}{subsection.7.4.5}
+\contentsline {section}{\numberline {7.5}Spieler}{62}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}PlayerController}{62}{subsection.7.5.1}
+\contentsline {section}{\numberline {7.6}Kameraf\IeC {\"u}hrung}{64}{section.7.6}
+\contentsline {section}{\numberline {7.7}Schalter und T\IeC {\"u}ren}{65}{section.7.7}
+\contentsline {section}{\numberline {7.8}TimeRift}{66}{section.7.8}
+\contentsline {chapter}{\numberline {8}Tests}{69}{chapter.8}
+\contentsline {section}{\numberline {8.1}Systemtests}{69}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Einf\IeC {\"u}hrung}{69}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Testf\IeC {\"a}lle}{69}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Akzeptanztests}{69}{section.8.2}
+\contentsline {chapter}{\numberline {9}Projektevaluation}{74}{chapter.9}
+\contentsline {section}{\numberline {9.1}Arbeitsaufwand}{74}{section.9.1}
+\contentsline {section}{\numberline {9.2}Zusammenarbeit}{74}{section.9.2}
+\contentsline {section}{\numberline {9.3}Zeitmanagement}{75}{section.9.3}
+\contentsline {section}{\numberline {9.4}Produktevaluierung}{75}{section.9.4}
+\contentsline {section}{\numberline {9.5}Kosten}{76}{section.9.5}
+\contentsline {section}{\numberline {9.6}Erfahrungen}{76}{section.9.6}
+\contentsline {section}{\numberline {9.7}Fazit}{76}{section.9.7}
+\contentsline {chapter}{\numberline {10}Zusammenfassung}{77}{chapter.10}
+\contentsline {section}{\numberline {10.1}Res\IeC {\"u}mee}{77}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Res\IeC {\"u}mee (Leitner Michael)}{77}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Res\IeC {\"u}mee (Vogel Lukas)}{78}{subsection.10.1.2}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{80}{chapter*.61}
+\contentsline {chapter}{\numberline {A}Anhang-Kapitel}{81}{appendix.A}
+\contentsline {section}{\numberline {A.1}Anhang-Section}{81}{section.A.1}
