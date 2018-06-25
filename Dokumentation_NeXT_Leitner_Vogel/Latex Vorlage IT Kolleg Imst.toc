@@ -76,9 +76,10 @@
 \contentsline {section}{\numberline {11.1}Beispiele zitieren}{54}{section.11.1}
 \contentsline {subsection}{\numberline {11.1.1}Beispiele Abbildungen}{54}{subsection.11.1.1}
 \contentsline {subsubsection}{\nonumberline Beispiele Tabellen}{55}{section*.36}
-\contentsline {section}{\numberline {11.2}Beispiele Listen}{56}{section.11.2}
+\contentsline {section}{\numberline {11.2}Beispiele Listen}{55}{section.11.2}
 \contentsline {section}{\numberline {11.3}Beispiel Codesequenz}{57}{section.11.3}
 \contentsline {subsection}{\numberline {11.3.1}Quicksort in JAVA}{57}{subsection.11.3.1}
 \contentsline {section}{\numberline {11.4}Beispieltext}{59}{section.11.4}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{61}{chapter*.38}
 \contentsline {chapter}{\numberline {A}Anhang-Kapitel}{62}{appendix.A}
 \contentsline {section}{\numberline {A.1}Anhang-Section}{62}{section.A.1}

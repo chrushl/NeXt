@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  25 JUN 2018 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  25 JUN 2018 13:10
 entering extended mode
 **"./Latex Vorlage IT Kolleg Imst.tex"
 ("Latex Vorlage IT Kolleg Imst.tex"
@@ -1539,44 +1539,27 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 175.
 Package scrbase Info: activating ngerman \lstlistingname on input line 175.
 Package Listings Info: Made | a short reference for \lstinline on input line 17
 6.
+ <Logo_Projektpartner.png, id=326, 676.5275pt x 432.61626pt>
+File: Logo_Projektpartner.png Graphic file (type png)
 
+<use Logo_Projektpartner.png>
+Package pdftex.def Info: Logo_Projektpartner.png used on input line 179.
+(pdftex.def)             Requested size: 133.47594pt x 85.35826pt.
 
-! LaTeX Error: File `Logo_Projektpartner' not found.
+<Logo_Kolleg_Imst.png, id=328, 623.32875pt x 487.8225pt>
+File: Logo_Kolleg_Imst.png Graphic file (type png)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.179 
-      
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `Logo_Kolleg_Imst' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.179 
-      
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<use Logo_Kolleg_Imst.png>
+Package pdftex.def Info: Logo_Kolleg_Imst.png used on input line 179.
+(pdftex.def)             Requested size: 109.06514pt x 85.35826pt.
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 179.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 179.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 179.
@@ -1615,7 +1598,8 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (inp_posttitle.tex
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./Logo_Projektpartner.png
+> <./Logo_Kolleg_Imst.png>] (inp_posttitle.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1889,47 +1873,21 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 16.
+<images/LukasVogel.png, id=536, 596.98032pt x 661.72218pt>
+File: images/LukasVogel.png Graphic file (type png)
 
-LaTeX Warning: File `images/LukasVogel.png' not found on input line 20.
-
-
-! Package pdftex.def Error: File `images/LukasVogel.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...graphics[width=4cm]{images/LukasVogel.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 20.
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+<use images/LukasVogel.png>
+Package pdftex.def Info: images/LukasVogel.png used on input line 20.
+(pdftex.def)             Requested size: 113.81102pt x 126.15259pt.
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 29.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+) <images/leitnerBeisp.jpg, id=537, 519.9425pt x 642.4pt>
+File: images/leitnerBeisp.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `images/leitnerBeisp.jpg' not found on input line 35.
-
-
-! Package pdftex.def Error: File `images/leitnerBeisp.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 ...aphics[width=4cm]{images/leitnerBeisp.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<use images/leitnerBeisp.jpg>
+Package pdftex.def Info: images/leitnerBeisp.jpg used on input line 35.
+(pdftex.def)             Requested size: 113.81102pt x 140.61287pt.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1938,9 +1896,9 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 38.
-[17
+ [17
 
-]
+ <./images/LukasVogel.png>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 47.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1949,28 +1907,17 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 47.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 47.
- [18]
+ [18 <./images/leitnerBeisp.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 48.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 48.
+ <images/Landerer_Claudio.jpg, id=547, 361.35pt x 503.7219pt>
+File: images/Landerer_Claudio.jpg Graphic file (type jpg)
 
-
-LaTeX Warning: File `images/Landerer_Claudio.jpg' not found on input line 52.
-
-
-! Package pdftex.def Error: File `images/Landerer_Claudio.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...cs[width=4cm]{images/Landerer_Claudio.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<use images/Landerer_Claudio.jpg>
+Package pdftex.def Info: images/Landerer_Claudio.jpg used on input line 52.
+(pdftex.def)             Requested size: 113.81102pt x 158.65018pt.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 56.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1979,48 +1926,26 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 56.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 56.
-[19]
+ [19 <./images/Landerer_Claudio.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 57.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 57.
 
+<images/ClockstoneLogo.png, id=553, 108.405pt x 121.95563pt>
+File: images/ClockstoneLogo.png Graphic file (type png)
 
-LaTeX Warning: File `images/ClockstoneLogo.png' not found on input line 60.
-
-
-! Package pdftex.def Error: File `images/ClockstoneLogo.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 ...cludegraphics[]{images/ClockstoneLogo.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<use images/ClockstoneLogo.png>
+Package pdftex.def Info: images/ClockstoneLogo.png used on input line 60.
+(pdftex.def)             Requested size: 108.40472pt x 121.9553pt.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 66.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 66.
-
-LaTeX Warning: File `images/Landerer_Claudio.jpg' not found on input line 71.
-
-
-! Package pdftex.def Error: File `images/Landerer_Claudio.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.71 ..., height=4cm]{images/Landerer_Claudio.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+File: images/Landerer_Claudio.jpg Graphic file (type jpg)
+ <use images/Landerer_Claudio.jpg>
+Package pdftex.def Info: images/Landerer_Claudio.jpg used on input line 71.
+(pdftex.def)             Requested size: 85.35835pt x 113.80907pt.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 74.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2037,7 +1962,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 78.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 78.
-[20]
+ [20 <./images/ClockstoneLogo.png>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 78.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2094,26 +2019,15 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 107.
-[22]
+[22] <images/Projektumfeldanalyse.png, id=569, 893.58844pt x 660.96938pt>
+File: images/Projektumfeldanalyse.png Graphic file (type png)
 
-LaTeX Warning: File `images/Projektumfeldanalyse.png' not found on input line 1
-10.
+<use images/Projektumfeldanalyse.png>
+Package pdftex.def Info: images/Projektumfeldanalyse.png used on input line 110
+.
+(pdftex.def)             Requested size: 455.24684pt x 227.62117pt.
 
-
-! Package pdftex.def Error: File `images/Projektumfeldanalyse.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110 ...ght=8cm]{images/Projektumfeldanalyse.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (28.57811pt too wide) in paragraph at lines 110--111
+Overfull \hbox (28.45544pt too wide) in paragraph at lines 110--111
  [][] 
  []
 
@@ -2121,24 +2035,14 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 116.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 116.
+<images/Risiko-Matrix.png, id=572, 1053.9375pt x 587.19376pt>
+File: images/Risiko-Matrix.png Graphic file (type png)
 
-LaTeX Warning: File `images/Risiko-Matrix.png' not found on input line 119.
+<use images/Risiko-Matrix.png>
+Package pdftex.def Info: images/Risiko-Matrix.png used on input line 119.
+(pdftex.def)             Requested size: 455.24277pt x 227.61586pt.
 
-
-! Package pdftex.def Error: File `images/Risiko-Matrix.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.119 ...6cm,height=8cm]{images/Risiko-Matrix.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (28.57811pt too wide) in paragraph at lines 119--120
+Overfull \hbox (28.45137pt too wide) in paragraph at lines 119--120
  [][] 
  []
 
@@ -2150,12 +2054,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 123.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 123.
-[23]
-
-Package natbib Warning: Citation `SystemplanungundProjektmanagement-Lehrbuch' o
-n page 24 undefined on input line 123.
-
-
+[23 <./images/Projektumfeldanalyse.png>]
 Overfull \hbox (7.02379pt too wide) in paragraph at lines 132--132
 []|\T1/lmr/bx/n/12 Bewertung| 
  []
@@ -2233,7 +2132,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 146.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 146.
-[24]
+[24 <./images/Risiko-Matrix.png>]
 Overfull \vbox (9.06723pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -2342,26 +2241,15 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 196.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 196.
+ <images/Projektstrukturplan.png, id=597, 1109.64563pt x 596.98032pt>
+File: images/Projektstrukturplan.png Graphic file (type png)
 
+<use images/Projektstrukturplan.png>
+Package pdftex.def Info: images/Projektstrukturplan.png used on input line 199.
 
-LaTeX Warning: File `images/Projektstrukturplan.png' not found on input line 19
-9.
+(pdftex.def)             Requested size: 455.2455pt x 227.62004pt.
 
-
-! Package pdftex.def Error: File `images/Projektstrukturplan.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.199 ...ight=8cm]{images/Projektstrukturplan.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (28.57811pt too wide) in paragraph at lines 199--200
+Overfull \hbox (28.4541pt too wide) in paragraph at lines 199--200
  [][] 
  []
 
@@ -2398,7 +2286,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 211.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 211.
- [28]
+ [28 <./images/Projektstrukturplan.png>]
 chapter 3.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 211.
@@ -2432,18 +2320,10 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 217.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 217.
-
-Package natbib Warning: Citation `Spiel-Engine' on page 30 undefined on input l
-ine 218.
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 220.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 220.
-
-Package natbib Warning: Citation `Unity-Engine' on page 30 undefined on input l
-ine 223.
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 228.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2455,10 +2335,6 @@ Package babel Info: Redefining ngerman shorthand "~
 [30
 
 ]
-
-Package natbib Warning: Citation `Unity-Engine' on page 31 undefined on input l
-ine 245.
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 247.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2467,10 +2343,6 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 248.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 248.
-
-Package natbib Warning: Citation `Unity-Engine' on page 31 undefined on input l
-ine 249.
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 250.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2479,7 +2351,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 250.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 250.
-[31]
+ [31]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 251.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2492,11 +2364,6 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 257.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 257.
-
-
-Package natbib Warning: Citation `Latex' on page 32 undefined on input line 259
-.
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 260.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2505,7 +2372,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 260.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 260.
-[32]
+ [32]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 260.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2524,24 +2391,14 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 261.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 261.
+<images/UseCaseDiagram.jpg, id=643, 1367.1075pt x 885.3075pt>
+File: images/UseCaseDiagram.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `images/UseCaseDiagram.jpg' not found on input line 265.
+<use images/UseCaseDiagram.jpg>
+Package pdftex.def Info: images/UseCaseDiagram.jpg used on input line 265.
+(pdftex.def)             Requested size: 497.91579pt x 284.53348pt.
 
-
-! Package pdftex.def Error: File `images/UseCaseDiagram.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.265 ...m,height=10cm]{images/UseCaseDiagram.jpg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (71.26898pt too wide) in paragraph at lines 265--266
+Overfull \hbox (71.12439pt too wide) in paragraph at lines 265--266
  [][] 
  []
 
@@ -2559,53 +2416,32 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 272.
 [34
 
-]
+ <./images/UseCaseDiagram.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 276.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 276.
 
+<images/WireframeMainmenu.png, id=648, 770.88pt x 451.6875pt>
+File: images/WireframeMainmenu.png Graphic file (type png)
 
-LaTeX Warning: File `images/WireframeMainmenu.png' not found on input line 280.
+<use images/WireframeMainmenu.png>
+Package pdftex.def Info: images/WireframeMainmenu.png used on input line 280.
+(pdftex.def)             Requested size: 455.23872pt x 256.0861pt.
 
-
-
-! Package pdftex.def Error: File `images/WireframeMainmenu.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280 ...height=9cm]{images/WireframeMainmenu.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (28.57811pt too wide) in paragraph at lines 280--281
+Overfull \hbox (28.44733pt too wide) in paragraph at lines 280--281
  [][] 
  []
 
+<images/WireframeLevelsmenu.png, id=651, 766.36313pt x 496.85625pt>
+File: images/WireframeLevelsmenu.png Graphic file (type png)
 
-LaTeX Warning: File `images/WireframeLevelsmenu.png' not found on input line 28
-7.
+<use images/WireframeLevelsmenu.png>
+Package pdftex.def Info: images/WireframeLevelsmenu.png used on input line 287.
 
+(pdftex.def)             Requested size: 455.24918pt x 256.07715pt.
 
-! Package pdftex.def Error: File `images/WireframeLevelsmenu.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.287 ...ight=9cm]{images/WireframeLevelsmenu.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (28.57811pt too wide) in paragraph at lines 287--288
+Overfull \hbox (28.45778pt too wide) in paragraph at lines 287--288
  [][] 
  []
 
@@ -2617,26 +2453,15 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 290.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 290.
-[35]
+[35 <./images/WireframeMainmenu.png>]
+<images/WireframePausemenu.png, id=657, 804.75656pt x 453.94594pt>
+File: images/WireframePausemenu.png Graphic file (type png)
 
-LaTeX Warning: File `images/WireframePausemenu.png' not found on input line 294
-.
+<use images/WireframePausemenu.png>
+Package pdftex.def Info: images/WireframePausemenu.png used on input line 294.
+(pdftex.def)             Requested size: 455.24089pt x 256.07819pt.
 
-
-! Package pdftex.def Error: File `images/WireframePausemenu.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.294 ...eight=9cm]{images/WireframePausemenu.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (28.57811pt too wide) in paragraph at lines 294--295
+Overfull \hbox (28.4495pt too wide) in paragraph at lines 294--295
  [][] 
  []
 
@@ -2648,7 +2473,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 298.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 298.
-[36]
+[36 <./images/WireframeLevelsmenu.png>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 299.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2657,7 +2482,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 299.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 299.
- [37]
+ [37 <./images/WireframePausemenu.png>]
 chapter 6.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 299.
@@ -3000,31 +2825,18 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
-
-Package natbib Warning: Citation `Spiel-Engine' on page 54 undefined on input l
-ine 4.
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 6.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 6.
+<figures/Arduino_Example.jpg, id=744, 5203.44pt x 3468.96pt>
+File: figures/Arduino_Example.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `figures/Arduino_Example.jpg' not found on input line 20.
-
-
-! Package pdftex.def Error: File `figures/Arduino_Example.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 Stefan Stolz (CC BY-SA 3.0)}
-                                 
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<use figures/Arduino_Example.jpg>
+Package pdftex.def Info: figures/Arduino_Example.jpg used on input line 20.
+(pdftex.def)             Requested size: 341.43442pt x 227.60759pt.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 20.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
@@ -3038,58 +2850,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 20.
 
-! Package pdftex.def Error: File `figures/shift_reg.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47       \end{tabularx}
-                         
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Package pdftex.def Error: File `figures/shift_reg.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47       \end{tabularx}
-                         
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Package pdftex.def Error: File `figures/shift_reg.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47       \end{tabularx}
-                         
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `figures/shift_reg.png' not found on input line 47.
-
-
-! Package pdftex.def Error: File `figures/shift_reg.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47       \end{tabularx}
-                         
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<figures/shift_reg.png, id=746, 234.1247pt x 277.78781pt>
+<use figures/shift_reg.png> <use figures/shift_reg.png>
+<use figures/shift_reg.png>
+File: figures/shift_reg.png Graphic file (type png)
+ <use figures/shift_reg.png>
+Package pdftex.def Info: figures/shift_reg.png used on input line 47.
+(pdftex.def)             Requested size: 128.03871pt x 151.9233pt.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 51.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3098,7 +2865,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 51.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 51.
-[54
+ [54
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -3106,32 +2873,36 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 55.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
- [55]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 82.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 82.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 82.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 82.
- [56]
+(babel)             in language  on input line 62.
+ [55 <./figures/Arduino_Example.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 87.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 87.
 Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 89.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 89.
+ [56 <./figures/shift_reg.png>]
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 92.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 92.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 93.
 
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 
 Package xcolor Warning: Incompatible color definition on input line 94.
 
@@ -3158,15 +2929,6 @@ Package xcolor Warning: Incompatible color definition on input line 99.
 
 Package xcolor Warning: Incompatible color definition on input line 100.
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 106.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 106.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 106.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 106.
-[57]
 
 Package xcolor Warning: Incompatible color definition on input line 106.
 
@@ -3197,6 +2959,15 @@ Package xcolor Warning: Incompatible color definition on input line 108.
 
 Package xcolor Warning: Incompatible color definition on input line 110.
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 111.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 111.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 111.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 111.
+[57]
 
 Package xcolor Warning: Incompatible color definition on input line 111.
 
@@ -3290,15 +3061,6 @@ Package xcolor Warning: Incompatible color definition on input line 128.
 
 Package xcolor Warning: Incompatible color definition on input line 129.
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 135.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 135.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 135.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 135.
-[58]
 
 Package xcolor Warning: Incompatible color definition on input line 137.
 
@@ -3339,6 +3101,15 @@ Package xcolor Warning: Incompatible color definition on input line 138.
 Package xcolor Warning: Incompatible color definition on input line 141.
 
 Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 142.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 142.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 142.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 142.
+[58]
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 147.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 147.
@@ -3351,18 +3122,22 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 191.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 191.
- [59]
+ [59] ("Latex Vorlage IT Kolleg Imst.bbl"
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 1.
  [60]
-No file "Latex Vorlage IT Kolleg Imst".bbl.
-(inp_appendix.tex
+chapter without number
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+) (inp_appendix.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3371,7 +3146,9 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [61]
+ [61
+
+]
 chapter A.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -3382,9 +3159,6 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
 )
-
-Package natbib Warning: There were undefined citations.
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 200.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3393,7 +3167,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 200.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 200.
-[62
+ [62
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
@@ -3405,40 +3179,39 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `"Latex Vorlage IT Kolleg Imst".out' has not 
 changed.
-(rerunfilecheck)             Checksum: C19B3D079120113A467BE71406C681C5;5126.
+(rerunfilecheck)             Checksum: 0954638C4BF1EF94B2C375404E2DF055;5185.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
  ) 
 Here is how much of TeX's memory you used:
- 26832 strings out of 493323
- 489353 string characters out of 3139046
- 715748 words of memory out of 3000000
- 29589 multiletter control sequences out of 15000+200000
- 76486 words of font info for 58 fonts, out of 3000000 for 9000
+ 26902 strings out of 493323
+ 491710 string characters out of 3139046
+ 714748 words of memory out of 3000000
+ 29662 multiletter control sequences out of 15000+200000
+ 79281 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,18n,66p,8843b,2102s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,18n,66p,8843b,2117s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/base/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc
 }<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
-lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on "Latex Vorlage IT Kolleg Imst.pdf" (62 pages, 428366 bytes).
+s/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
+m/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/lm/lmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/he
+lvetic/uhvr8a.pfb>
+Output written on "Latex Vorlage IT Kolleg Imst.pdf" (62 pages, 6661465 bytes).
+
 PDF statistics:
- 922 PDF objects out of 1000 (max. 8388607)
- 251 named destinations out of 1000 (max. 500000)
- 645 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 976 PDF objects out of 1000 (max. 8388607)
+ 256 named destinations out of 1000 (max. 500000)
+ 728 words of extra memory for PDF output out of 10000 (max. 10000000)
 
