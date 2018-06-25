@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  25 JUN 2018 12:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  25 JUN 2018 13:08
 entering extended mode
 **"./Latex Vorlage IT Kolleg Imst.tex"
 ("Latex Vorlage IT Kolleg Imst.tex"
@@ -1539,14 +1539,14 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 175.
 Package scrbase Info: activating ngerman \lstlistingname on input line 175.
 Package Listings Info: Made | a short reference for \lstinline on input line 17
 6.
- <Logo_Projektpartner.png, id=318, 676.5275pt x 432.61626pt>
+ <Logo_Projektpartner.png, id=326, 676.5275pt x 432.61626pt>
 File: Logo_Projektpartner.png Graphic file (type png)
 
 <use Logo_Projektpartner.png>
 Package pdftex.def Info: Logo_Projektpartner.png used on input line 179.
 (pdftex.def)             Requested size: 133.47594pt x 85.35826pt.
 
-<Logo_Kolleg_Imst.png, id=320, 623.32875pt x 487.8225pt>
+<Logo_Kolleg_Imst.png, id=328, 623.32875pt x 487.8225pt>
 File: Logo_Kolleg_Imst.png Graphic file (type png)
 
 <use Logo_Kolleg_Imst.png>
@@ -1873,7 +1873,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 16.
-<images/LukasVogel.png, id=526, 596.98032pt x 661.72218pt>
+<images/LukasVogel.png, id=536, 596.98032pt x 661.72218pt>
 File: images/LukasVogel.png Graphic file (type png)
 
 <use images/LukasVogel.png>
@@ -1882,7 +1882,7 @@ Package pdftex.def Info: images/LukasVogel.png used on input line 20.
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 29.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) <images/leitnerBeisp.jpg, id=527, 519.9425pt x 642.4pt>
+) <images/leitnerBeisp.jpg, id=537, 519.9425pt x 642.4pt>
 File: images/leitnerBeisp.jpg Graphic file (type jpg)
 
 <use images/leitnerBeisp.jpg>
@@ -1912,7 +1912,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 48.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 48.
- <images/Landerer_Claudio.jpg, id=537, 361.35pt x 503.7219pt>
+ <images/Landerer_Claudio.jpg, id=547, 361.35pt x 503.7219pt>
 File: images/Landerer_Claudio.jpg Graphic file (type jpg)
 
 <use images/Landerer_Claudio.jpg>
@@ -1932,7 +1932,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 57.
 
-<images/ClockstoneLogo.png, id=543, 108.405pt x 121.95563pt>
+<images/ClockstoneLogo.png, id=553, 108.405pt x 121.95563pt>
 File: images/ClockstoneLogo.png Graphic file (type png)
 
 <use images/ClockstoneLogo.png>
@@ -2019,7 +2019,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 107.
-[22] <images/Projektumfeldanalyse.png, id=559, 893.58844pt x 660.96938pt>
+[22] <images/Projektumfeldanalyse.png, id=569, 893.58844pt x 660.96938pt>
 File: images/Projektumfeldanalyse.png Graphic file (type png)
 
 <use images/Projektumfeldanalyse.png>
@@ -2035,7 +2035,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 116.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 116.
-<images/Risiko-Matrix.png, id=562, 1053.9375pt x 587.19376pt>
+<images/Risiko-Matrix.png, id=572, 1053.9375pt x 587.19376pt>
 File: images/Risiko-Matrix.png Graphic file (type png)
 
 <use images/Risiko-Matrix.png>
@@ -2241,7 +2241,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 196.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 196.
- <images/Projektstrukturplan.png, id=587, 1109.64563pt x 596.98032pt>
+ <images/Projektstrukturplan.png, id=597, 1109.64563pt x 596.98032pt>
 File: images/Projektstrukturplan.png Graphic file (type png)
 
 <use images/Projektstrukturplan.png>
@@ -2391,7 +2391,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 261.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 261.
-<images/UseCaseDiagram.jpg, id=633, 1367.1075pt x 885.3075pt>
+<images/UseCaseDiagram.jpg, id=643, 1367.1075pt x 885.3075pt>
 File: images/UseCaseDiagram.jpg Graphic file (type jpg)
 
 <use images/UseCaseDiagram.jpg>
@@ -2422,7 +2422,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 276.
 
-<images/WireframeMainmenu.png, id=638, 770.88pt x 451.6875pt>
+<images/WireframeMainmenu.png, id=648, 770.88pt x 451.6875pt>
 File: images/WireframeMainmenu.png Graphic file (type png)
 
 <use images/WireframeMainmenu.png>
@@ -2433,7 +2433,7 @@ Overfull \hbox (28.44733pt too wide) in paragraph at lines 280--281
  [][] 
  []
 
-<images/WireframeLevelsmenu.png, id=641, 766.36313pt x 496.85625pt>
+<images/WireframeLevelsmenu.png, id=651, 766.36313pt x 496.85625pt>
 File: images/WireframeLevelsmenu.png Graphic file (type png)
 
 <use images/WireframeLevelsmenu.png>
@@ -2454,7 +2454,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 290.
 [35 <./images/WireframeMainmenu.png>]
-<images/WireframePausemenu.png, id=647, 804.75656pt x 453.94594pt>
+<images/WireframePausemenu.png, id=657, 804.75656pt x 453.94594pt>
 File: images/WireframePausemenu.png Graphic file (type png)
 
 <use images/WireframePausemenu.png>
@@ -2829,7 +2829,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 6.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 6.
-<figures/Arduino_Example.jpg, id=736, 5203.44pt x 3468.96pt>
+<figures/Arduino_Example.jpg, id=744, 5203.44pt x 3468.96pt>
 File: figures/Arduino_Example.jpg Graphic file (type jpg)
 
 <use figures/Arduino_Example.jpg>
@@ -2850,7 +2850,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 20.
 
-<figures/shift_reg.png, id=738, 234.1247pt x 277.78781pt>
+<figures/shift_reg.png, id=746, 234.1247pt x 277.78781pt>
 <use figures/shift_reg.png> <use figures/shift_reg.png>
 <use figures/shift_reg.png>
 File: figures/shift_reg.png Graphic file (type png)
@@ -3177,27 +3177,20 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 21.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+Package rerunfilecheck Info: File `"Latex Vorlage IT Kolleg Imst".out' has not 
+changed.
+(rerunfilecheck)             Checksum: 0954638C4BF1EF94B2C375404E2DF055;5185.
 
-
-Package rerunfilecheck Warning: File `"Latex Vorlage IT Kolleg Imst".out' has c
-hanged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Latex Vorlage IT Kolleg Imst".out'
-:
-(rerunfilecheck)             Before: 68B780F33627F521F2E1968746B70F68;5075
-(rerunfilecheck)             After:  0954638C4BF1EF94B2C375404E2DF055;5185.
 
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 200.
  ) 
 Here is how much of TeX's memory you used:
- 26900 strings out of 493323
- 491684 string characters out of 3139046
+ 26902 strings out of 493323
+ 491710 string characters out of 3139046
  714748 words of memory out of 3000000
- 29660 multiletter control sequences out of 15000+200000
+ 29662 multiletter control sequences out of 15000+200000
  79281 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,18n,66p,8843b,2117s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3215,10 +3208,10 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/lm/lmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/he
 lvetic/uhvr8a.pfb>
-Output written on "Latex Vorlage IT Kolleg Imst.pdf" (62 pages, 6660583 bytes).
+Output written on "Latex Vorlage IT Kolleg Imst.pdf" (62 pages, 6661465 bytes).
 
 PDF statistics:
- 968 PDF objects out of 1000 (max. 8388607)
+ 976 PDF objects out of 1000 (max. 8388607)
  256 named destinations out of 1000 (max. 500000)
- 712 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 728 words of extra memory for PDF output out of 10000 (max. 10000000)
 
