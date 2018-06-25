@@ -86,6 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\CameraController.cs" />
+    <Compile Include="Assets\Script\ColorSolid.cs" />
     <Compile Include="Assets\Script\FinishChest.cs" />
     <Compile Include="Assets\Script\LevelMenu.cs" />
     <Compile Include="Assets\Script\MainMenu.cs" />
