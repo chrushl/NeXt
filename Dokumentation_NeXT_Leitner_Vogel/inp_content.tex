@@ -226,18 +226,19 @@ Der Projektstrukturplan, zu sehen in Abbildung \ref{Projektstrukturplan}, soll d
 	\item 30.04.2018 Verbesserung des Prototyps auf Basis der Rückmeldungen (Beta-Test)
 	\item 15.06.2018 Fertigstellung der Dokumentation, Übergabe an den Auftraggeber
 \end{itemize}
-\subsection{Gant-Chart}
+\subsection{Gantt-Chart}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=4cm]{images/Vorgaenge.png}
+	\includegraphics[width=15cm]{images/Vorgaenge.png}
 	\caption{Vorgänge des Gantt Charts}		
 \end{figure}
+Hier werden alle Vorgänge aufgelistet, die im Zeitmanagement aufgestellt wurden.
 \begin{sidewaysfigure}
 	\centering
 	\includegraphics[width=20cm]{images/Gantt.png}
 	\caption{Gantt Chart}
 \end{sidewaysfigure}
-
+In diesem Gantt-Chart sehen Sie, wie einzelne Vorgänge in zusammenhänge stehen. Eine Verzögerung bei dem Vorgang Steuerung würde eine Verzögerung bei Vorgang Time-Rift bedeuten.
 \chapter{Vorstellung des Produktes}
 \section{Produktbeschreibung}
 Das Computerspiel NeXt ist in den Genres Jump and Run und Puzzle angesiedelt. Hauptaugenmerk dieses Spiels ist das sogenannte Time Rift-Prinzip. Bei diesem Prinzip geht es darum, dass der Spieler jedes Level mehrmals in einzelnen Durchläufen spielen wird. Der Clue an der Sache ist jedoch, dass die zuvor gespielten Charaktere sich genauso bewegen wie sie in den vorigen Durchläufen gesteuert wurden. Das heißt: Hat der Spieler mit dem ersten Charakter einen Schalter betätigt, der eine Tür öffnet, dann wiederholt der Charakter diesen Vorgang, nur diesmal von selbst. Währenddessen kann der Spieler mit dem zweiten Charakter zu der zuvor genannten Tür gehen, welche sich öffnet, da der erste Charakter wieder den Schalter betätigt und somit wird das Level beendet. Durch dieses besondere Spielprinzip können vollkommen neue Puzzele-Elemente in das Produkt eingebaut werden, dies soll den Reiz des Spiels ausmachen. Damit das Spiel aber nicht zu leicht wird, wird noch ein Zeitfaktor eingebaut, welcher den Spieler unter Druck setzten soll. Schafft der Spieler es nicht den Schalter in der geforderten Zeit zu betätigen, so wird er mit dem zweiten Charakter nicht durch die Tür kommen und kann deshalb nicht das Level beenden. Durch ein abwechslungsreiches Level Design und das oben beschriebene Spielprinzip soll ein interessantes Spiel entwickelt werden, das auch einen großen Wiederspielfaktor als Ziel hat. Die Benutzeroberfläche so wie das Spielgefühl sollen intuitiv sein und für alle User keine große Umstellung zu anderen Spielen sein. Die genauen Mechaniken sowie die Funktionsweise des Spiels wurden in der Dokumentation erläutert.  
@@ -340,7 +341,33 @@ In der Unity3D Entwicklungsumgebung werden keine klassischen Architekturmuster v
 	\caption{UML-Diagramm der Klassen}		
 \end{figure}
 
+Wie man aus dem UML Diagramm sehen kann, erben alle Spielablaufs bezogenen Klassen von MonoBehaviour, genaueres dazu können Sie bei Punkt \ref{MonoBehaviour}
+
 \chapter{Implementierung}
+\section{Unity-Klassenstruktur}
+\subsection{MonoBehaviour}	\label{MonoBehaviour}
+Die Klasse „MonoBehaviour“ ist eine Standardklasse, die von der Unity3D-Engine bereitgestellt wird. Jedes Skript, welches in Unity verwendet wird, muss von dieser Klasse erben (Ähnlich wie in Java die „Object-Klasse“ von jeder Klasse gerbt wird). MonoBehaviour gibt folgende Methoden zur Verfügung:
+\begin{itemize}
+	\item Start()
+	\item Update()
+	\item FixedUpdate()
+	\item LateUpdate()
+	\item OnGUI()
+	\item OnDisable()
+	\item OnEnable()
+\end{itemize}
+Verwendet werden in diesem Projekt aber nur die Start, Update, FixedUpdate und LateUpdate Methoden.
+\subsubsection{Start-Methode}
+Die Start-Methode wird nur einmal in der Skriptlaufzeit aufgerufen und zwar bei der Initialisierung des Skriptes.
+\subsubsection{Update-Methode}
+Die Update-Methode wird bei jedem Frame aufgerufen. Sie wird meistens für Berechnungen, die in jedem Frame durchgeführt werden müssen, verwendet. Nachteil hier ist aber, wenn das Spiel eine schlechte Framezahl hat werden die Berechnungen auch weniger oft durchgeführt.
+\subsubsection{FixedUpdate-Methode}
+Die FixedUpdate-Methode wird bei jedem fixierten Framerate Frame aufgerufen. Diese Methode soll verwendet werden für Bewegungen eines Charakters (spielbar und nicht spielbar). Dies hat den Grund, dass selbst bei schlechter Framerate, die Berechnungen der Bewegung konstant bleiben.
+\subsubsection{LateUpdate-Methode}
+Die LateUpdate-Methode wird nach allen anderen Update-Methoden aufgerufen. Sie wird hauptsächlich für Funktionen verwendet die nach all den Update-Methoden aufgerufen werden soll z.b.: Für die Kameraführung, da sich Objekte in der UpdateMethode bewegt haben können.
+\subsection{Weitere bereitgestellten Funktionen}
+Unity stellt ebenso wichtige Funktionen für die Spielentwicklung bereit, unter anderem wird Physik und Kollisionen bereits von Unity bereitgestellt, müssen aber vom Entwickler auf seinen Wunsch angepasst werden. Auch für die Bewegungsberechungen wird von Unity schon viel bereitgestellt. Zum Beispiel die "Vector2"- Funktion. Diese Funktion beschreibt wie man einen 2 Dimensionalen Vektor berechnet. 
+
 \section{GUI}
 Das Graphical User Interface des Spiels wurde sehr einfach gehalten, da es sich um eine Prototyp handelt.
 \subsection{Hauptmenü}
@@ -606,7 +633,7 @@ Das Level Design ist durch Unity sehr einfach gestaltet. Alle verwenden Graphike
 	\includegraphics[height=5cm]{images/Ground.png}
 	\caption{Hierarchie der Ground Szene}
 \end{figure}
-Für den Player wurde ein Cube-Objekt erstellt.
+Für den Player wurde ein Cube-Objekt benutzt.
 \begin{figure}[H]
 	\includegraphics{images/Player.png}
 	\caption{Komponenten des Player-Objekts}
@@ -627,28 +654,6 @@ Bei den LevelObjects handelt es sich um Objekte die Im Level vorkommen, wie der 
 \subsection{Falldetector}
 Bei dem Falldetector handelt es sich um eine unsichtbares Objekt, welches ebenso einen Box Collider hat. Das Skript, dass dem Player angehängt ist, erkennt ob er dieses Objekt berührt und setzt den Spieler auf die Startposition zurück.
 
-
-\section{Unity-Klassenstruktur}
-\subsection{MonoBehaviour}	
-Die Klasse „MonoBehaviour“ ist eine Standardklasse, die von der Unity3D-Engine bereitgestellt wird. Jedes Skript, welches in Unity verwendet wird, muss von dieser Klasse erben (Ähnlich wie in Java die „Object-Klasse“ von jeder Klasse gerbt wird). MonoBehaviour gibt folgende Methoden zur Verfügung:
-\begin{itemize}
-	\item Start()
-	\item Update()
-	\item FixedUpdate()
-	\item LateUpdate()
-	\item OnGUI()
-	\item OnDisable()
-	\item OnEnable()
-\end{itemize}
-Verwendet werden in diesem Projekt aber nur die Start, Update, FixedUpdate und LateUpdate Methoden.
-\subsection{Start-Methode}
-Die Start-Methode wird nur einmal in der Skriptlaufzeit aufgerufen und zwar bei der Initialisierung des Skriptes.
-\subsection{Update-Methode}
-Die Update-Methode wird bei jedem Frame aufgerufen. Sie wird meistens für Berechnungen, die in jedem Frame durchgeführt werden müssen, verwendet. Nachteil hier ist aber, wenn das Spiel eine schlechte Framezahl hat werden die Berechnungen auch weniger oft durchgeführt.
-\subsection{FixedUpdate-Methode}
-Die FixedUpdate-Methode wird bei jedem fixierten Framerate Frame aufgerufen. Diese Methode soll verwendet werden für Bewegungen eines Charakters (spielbar und nicht spielbar). Dies hat den Grund, dass selbst bei schlechter Framerate, die Berechnungen der Bewegung konstant bleiben.
-\subsection{LateUpdate-Methode}
-Die LateUpdate-Methode wird nach allen anderen Update-Methoden aufgerufen. Sie wird hauptsächlich für Funktionen verwendet die nach all den Update-Methoden aufgerufen werden soll z.b.: Für die Kameraführung, da sich Objekte in der UpdateMethode bewegt haben können.
 \section{Spieler}
 Der Spieler steuert mehrere spielbare Charaktere im Verlauf eines Levels. Damit aber auch die Eingaben des Spielers verwertet werden, werden Skripte benötigt, die diese eingaben auswerten und verwerten. Diese Aufgabe wird von dem PlayerController Skript übernommen. 
 \subsection{PlayerController}
@@ -727,6 +732,7 @@ Door.transform.position = Vector3.MoveTowards(Door.transform.position, target.po
 	\includegraphics[height=8cm]{images/TuerZu.png}
 	\caption{Tür geschlossen}
 \end{figure}
+Bei dem Skript wird ähnlich wie bei dem PlayerController-Skript(Erkennen ob Player am Boden ist) wird hier überprüft ob sich der Spieler in der nähe der Druckplatte befinden. Ist dies der Fall, wird die Tür zu der "Target"-Position befördert. 
 \begin{figure}[H]
 	\includegraphics[height=8cm]{images/TuerOffen.png}
 	\caption{Tür geöffnet}
@@ -1023,7 +1029,6 @@ Nachfolgend sind vier tabellarisch dargestellte Testfälle beschrieben, welche g
 	\caption{Testfall 4: Schalter zum Öffnen einer Tür}
 \end{table}
 
-\section{Akzeptanztests}
 
 \chapter{Projektevaluation}
 \section{Arbeitsaufwand}
