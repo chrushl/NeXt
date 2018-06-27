@@ -15,36 +15,35 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces USE-Case-Diagramm\relax }}{37}{figure.caption.29}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Wireframe-Hauptmen\IeC {\"u}\relax }}{38}{figure.caption.30}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Wireframe-Levelmen\IeC {\"u}\relax }}{39}{figure.caption.31}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Wireframe-Pausemen\IeC {\"u}\relax }}{40}{figure.caption.32}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces USE-Case-Men\IeC {\"u}\relax }}{37}{figure.caption.29}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces USE-Case-Spielen\relax }}{38}{figure.caption.30}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Wireframe-Hauptmen\IeC {\"u}\relax }}{39}{figure.caption.31}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Wireframe-Levelmen\IeC {\"u}\relax }}{40}{figure.caption.32}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Wireframe-Pausemen\IeC {\"u}\relax }}{41}{figure.caption.33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces UML-Diagramm der Klassen\relax }}{41}{figure.caption.33}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces UML-Diagramm der Klassen\relax }}{42}{figure.caption.34}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Hauptmen\IeC {\"u}\relax }}{45}{figure.caption.38}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Anlegen eines Panel-Objekts\relax }}{46}{figure.caption.39}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Einstellung des Canvas-Objekts im Hauptmen\IeC {\"u}\relax }}{46}{figure.caption.40}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Einstellung des Panel-Objekts im Hauptmen\IeC {\"u}\relax }}{47}{figure.caption.41}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Einstellungen des Text-Objekts im Hauptmen\IeC {\"u}\relax }}{48}{figure.caption.42}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Farbwechsel des Buttons im Hauptmen\IeC {\"u} beim Klicken\relax }}{49}{figure.caption.43}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Teil der Hierarchie des UI im Hauptmen\IeC {\"u}.\relax }}{49}{figure.caption.44}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Anlegen eines C\# Scripts im Unity-Editor\relax }}{50}{figure.caption.45}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Einstellungen der 'Button' Komponente f\IeC {\"u}r den Levels-Button im Hauptmen\IeC {\"u}\relax }}{51}{figure.caption.46}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Level-Men\IeC {\"u}\relax }}{52}{figure.caption.47}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Einstellungen des Canvas-Objekts bei der Canvas-Komponente\relax }}{54}{figure.caption.48}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Einstellungen des Panel-Objekts bei der 'Image'-Komponente\relax }}{54}{figure.caption.49}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Hinzuf\IeC {\"u}gen der 'Shadwo'-Komponente\relax }}{54}{figure.caption.50}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Einstellungen der 'Shadwo'-Komponente\relax }}{55}{figure.caption.51}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Deaktivieren des Panel-Objekts\relax }}{56}{figure.caption.52}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Pause Men\IeC {\"u}\relax }}{58}{figure.caption.53}
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Hierarchie der Ground Szene\relax }}{59}{figure.caption.54}
-\contentsline {figure}{\numberline {7.18}{\ignorespaces Komponenten des Player-Objekts\relax }}{60}{figure.caption.55}
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Sprite Renderer Komponente von Player\relax }}{61}{figure.caption.56}
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Aufbau des Ridigbody2D Containers\relax }}{63}{figure.caption.57}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces T\IeC {\"u}r geschlossen\relax }}{66}{figure.caption.58}
-\contentsline {figure}{\numberline {7.22}{\ignorespaces T\IeC {\"u}r ge\IeC {\"o}ffnet\relax }}{66}{figure.caption.59}
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Hauptmen\IeC {\"u}\relax }}{46}{figure.caption.39}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Anlegen eines Panel-Objekts\relax }}{47}{figure.caption.40}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Einstellung des Canvas-Objekts im Hauptmen\IeC {\"u}\relax }}{47}{figure.caption.41}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Einstellung des Panel-Objekts im Hauptmen\IeC {\"u}\relax }}{48}{figure.caption.42}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Einstellungen des Text-Objekts im Hauptmen\IeC {\"u}\relax }}{49}{figure.caption.43}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Farbwechsel des Buttons im Hauptmen\IeC {\"u} beim Klicken\relax }}{50}{figure.caption.44}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Teil der Hierarchie des UI im Hauptmen\IeC {\"u}.\relax }}{50}{figure.caption.45}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Anlegen eines C\# Scripts im Unity-Editor\relax }}{51}{figure.caption.46}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Level-Men\IeC {\"u}\relax }}{53}{figure.caption.47}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Einstellungen des Canvas-Objekts bei der Canvas-Komponente\relax }}{55}{figure.caption.48}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Einstellungen des Panel-Objekts bei der 'Image'-Komponente\relax }}{55}{figure.caption.49}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Hinzuf\IeC {\"u}gen der 'Shadwo'-Komponente\relax }}{55}{figure.caption.50}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Einstellungen der 'Shadwo'-Komponente\relax }}{56}{figure.caption.51}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Deaktivieren des Panel-Objekts\relax }}{57}{figure.caption.52}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Pause Men\IeC {\"u}\relax }}{59}{figure.caption.53}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Hierarchie der Ground Szene\relax }}{60}{figure.caption.54}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Komponenten des Player-Objekts\relax }}{61}{figure.caption.55}
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Sprite Renderer Komponente von Player\relax }}{62}{figure.caption.56}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Aufbau des Ridigbody2D Containers\relax }}{64}{figure.caption.57}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces T\IeC {\"u}r geschlossen\relax }}{67}{figure.caption.58}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces T\IeC {\"u}r ge\IeC {\"o}ffnet\relax }}{67}{figure.caption.59}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
