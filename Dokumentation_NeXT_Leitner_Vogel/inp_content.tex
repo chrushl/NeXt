@@ -155,7 +155,9 @@ Folgende Risiken sind aus der Projektumfeld-Analyse hervorgegangen und werden in
 		\caption{Risiko-Bewertung-Maßnahmen}
 \label{Risiko}
 \end{table}
+\newpage
 \section{Pflichtenheft}
+\def \currentAuthor {Michael Leitner}
 \subsection{Zielbestimmung}
 Das Spiel „NeXt“ soll nach dem Time Rifts-Prinzip agieren. Das 2-dimensionale Spiel wird gemeistert durch:
 \begin{itemize}
@@ -168,7 +170,7 @@ Das Spiel „NeXt“ soll nach dem Time Rifts-Prinzip agieren. Das 2-dimensional
 	\centering
 	\includegraphics[width=10cm]{images/TimeRift.png}
 \end{figure}
-\textbf{Time-Rifts (Erklärung)}: Jeder Durchlauf hat ein Zeitlimit, dass Ziel sollte es sein durch die verschlossene Tür (grün) zu gehen.
+\textbf{Time Rift Prinzip}: Jeder Durchlauf hat ein Zeitlimit, dass Ziel sollte es sein durch die verschlossene Tür (grün) zu gehen.
 \begin{itemize}
 	\item Durchlauf I: Der/die Spieler/in bewegt Figur 1(schwarzes Rechteck) auf eine Bodenplatte. -> Tür öffnet sich. (bleibt offen solange die Bodenplatte betätigt ist)
 	\item Durchlauf II: Figur 1 macht das selbe wieder (in Echtzeit) und der/die Spieler/in bewegt Figur 2 (rotes Rechteck) durch die Tür
@@ -182,7 +184,7 @@ Die Zielgruppe dieses Spieles, ist jeder der sich einer Herausforderung stellen 
 	\begin{itemize}
 		\item Funktional:
 		\begin{itemize}
-			\item TimeRift-Prinzip-Implementiert
+			\item Time Rift Prinzip-Implementiert
 			\item Ein paar Level implementiert
 		\end{itemize}
 		\item Nicht-funktional
@@ -213,13 +215,21 @@ Die Zielgruppe dieses Spieles, ist jeder der sich einer Herausforderung stellen 
 	\label{Projektstrukturplan}
 \end{figure}
 
-Der Projektstrukturplan, zu sehen in Abbildung \ref{Projektstrukturplan}, soll den gesamten Umfang des Projekts strukturiert und gut lesbar darstellen.
+Der Projektstrukturplan, zu sehen in Abbildung \ref{Projektstrukturplan}, soll den gesamten Umfang des Projekts strukturiert und gut lesbar darstellen. Dabei ist zu erkenne, dass das Projekt aus drei großen Aufgabenbereichen besteht:
+\begin{itemize}
+	\item Dokumentation
+	\item Applikation
+	\item Projektmanagement
+\end{itemize}
+\def \currentAuthor {Lukas Vogel}
+\newpage
 
-
-\subsection{Meilensteine}\begin{itemize}
+\subsection{Meilensteine}
+\def \currentAuthor {Michael Leitner}
+\begin{itemize}
 	\item 10.10.2017 Abschluss Anforderungsdefinition, Vorbereitung der Entwicklungsumgebung	
 	\item 28.11.2017 Erster spielbarer Prototyp (Basissteuerung, Physik, Sound, Grafik, Test-Level)	
-	\item 09.01.2018 spielbarer Prototyp nach dem Timerift-Prinzip	
+	\item 09.01.2018 spielbarer Prototyp nach dem Time Rift Prinzip	
 	\item 06.02.2018 Erste spielbare Levels	
 	\item 20.03.2018 vollständige Fertigstellung des Spiels mit einigen Levels, Beginn der Beta-Testing-Phase	
 	\item 06.04.2018 Abschluss Beta-Testing	
@@ -230,19 +240,23 @@ Der Projektstrukturplan, zu sehen in Abbildung \ref{Projektstrukturplan}, soll d
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=15cm]{images/Vorgaenge.png}
-	\caption{Vorgänge des Gantt Charts}		
+	\caption{Vorgänge des Gantt Charts}	
+	\label{Gantt-Auflistung}	
 \end{figure}
-Hier werden alle Vorgänge aufgelistet, die im Zeitmanagement aufgestellt wurden.
+In Abbildung \ref{Gantt-Auflistung} werden alle Vorgänge aufgelistet, die im Zeitmanagement aufgestellt wurden.
+
 \begin{sidewaysfigure}
 	\centering
 	\includegraphics[width=20cm]{images/Gantt.png}
 	\caption{Gantt Chart}
+	\label{Gantt-Chart}
 \end{sidewaysfigure}
-In diesem Gantt-Chart sehen Sie, wie einzelne Vorgänge in zusammenhänge stehen. Eine Verzögerung bei dem Vorgang Steuerung würde eine Verzögerung bei Vorgang Time-Rift bedeuten.
+Im nachfolgendem Gantt-Chart (Abb. \ref{Gantt-Chart}) sehen Sie, wie einzelne Vorgänge im Zusammenhang zu einander stehen. Eine Verzögerung bei dem Vorgang Steuerung würde eine Verzögerung bei Vorgang Time Rift bedeuten.
 \chapter{Vorstellung des Produktes}
 \section{Produktbeschreibung}
 Das Computerspiel NeXt ist in den Genres Jump and Run und Puzzle angesiedelt. Hauptaugenmerk dieses Spiels ist das sogenannte Time Rift-Prinzip. Bei diesem Prinzip geht es darum, dass der Spieler jedes Level mehrmals in einzelnen Durchläufen spielen wird. Der Clue an der Sache ist jedoch, dass die zuvor gespielten Charaktere sich genauso bewegen wie sie in den vorigen Durchläufen gesteuert wurden. Das heißt: Hat der Spieler mit dem ersten Charakter einen Schalter betätigt, der eine Tür öffnet, dann wiederholt der Charakter diesen Vorgang, nur diesmal von selbst. Währenddessen kann der Spieler mit dem zweiten Charakter zu der zuvor genannten Tür gehen, welche sich öffnet, da der erste Charakter wieder den Schalter betätigt und somit wird das Level beendet. Durch dieses besondere Spielprinzip können vollkommen neue Puzzele-Elemente in das Produkt eingebaut werden, dies soll den Reiz des Spiels ausmachen. Damit das Spiel aber nicht zu leicht wird, wird noch ein Zeitfaktor eingebaut, welcher den Spieler unter Druck setzten soll. Schafft der Spieler es nicht den Schalter in der geforderten Zeit zu betätigen, so wird er mit dem zweiten Charakter nicht durch die Tür kommen und kann deshalb nicht das Level beenden. Durch ein abwechslungsreiches Level Design und das oben beschriebene Spielprinzip soll ein interessantes Spiel entwickelt werden, das auch einen großen Wiederspielfaktor als Ziel hat. Die Benutzeroberfläche so wie das Spielgefühl sollen intuitiv sein und für alle User keine große Umstellung zu anderen Spielen sein. Die genauen Mechaniken sowie die Funktionsweise des Spiels wurden in der Dokumentation erläutert.  
 \chapter{Eingesetzte Technologien}
+\def \currentAuthor {Lukas Vogel}
 \section{Engine}
 
 \subsection{Spiel-Engine}
@@ -292,17 +306,21 @@ Verantwortlich für den Inhalt: Lukas Vogel	Seite 35 die Benutzung von TeX einem
  \cite{Latex}
 \chapter{Problemanalyse}
 \section{USE-Case-Analyse}
-In diesem Projekt wurde eine USE-Case-Analyse vollzogen. Als Benutzer gibt es nur den Anwender der Applikation, dessen Ziel es sein wird das Computerspiel zu spielen oder es zu beenden. Die USE-Case-Analyse und dessen Ergebnis wird als Diagramm in Abbildung \ref{USE-Case-Menu} dargestellt.
+\def \currentAuthor {Lukas Vogel}
+In diesem Projekt wurde eine USE-Case-Analyse vollzogen. Als Benutzer gibt es nur den Anwender der Applikation. Nachstehend sind zwei Anwendungsfälle mittels Use-Case-Diagrammen beschrieben worden
+\subsection{Anwendungsfall: Level starten}
+Damit man das Computerspiel spielen kann muss zuerst ein Level ausgewählt werden. Dies wird über die verschiedenen Menüs bewerkstelligt. In Abbildung \ref{USE-Case-Menu} ist dieser Anwendungsfall als Diagramm dargestellt worden. 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=17.5cm,height=10cm]{images/UseCaseMenu.png}
+	\includegraphics[angle=90,scale=0.45]{images/UseCaseMenu.png}
 	\caption{USE-Case-Menü}
 	\label{USE-Case-Menu}
 \end{figure}
-
+\subsection{Anwendungsfall: Spielen}
+Sobald ein Level ausgewählt wurde kann mit dem Spielen begonnen werden. Der Verlauf eines Levels wird mit dem Diagramm, welches in Abb. \ref{USE-Case-Spielen} zu sehen ist, beschrieben. Des Weiteren ist das Time Rift Prinzip sehr gut zu erkennen.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=17.5cm,height=10cm]{images/UseCaseSpielen.png}
+	\includegraphics[angle=90,scale=0.30]{images/UseCaseSpielen.png}
 	\caption{USE-Case-Spielen}
 	\label{USE-Case-Spielen}
 \end{figure}
@@ -337,6 +355,7 @@ Sobald der Benutzer sich in einem Level befindet soll er die Möglichkeit haben,
 \chapter{Systementwurf}
 
 \section{Architektur}
+\def \currentAuthor {Michael Leitner}
 In der Unity3D Entwicklungsumgebung werden keine klassischen Architekturmuster verwendet. Wenn ein bestimmtes Objekt ein Skript benötigt, wird ihm dieses Skript angehängt. Jedoch wurden für das Time Rift-Prinzip mehrere Klassen verwendet.
 
 
@@ -371,9 +390,10 @@ Die FixedUpdate-Methode wird bei jedem fixierten Framerate Frame aufgerufen. Die
 \subsubsection{LateUpdate-Methode}
 Die LateUpdate-Methode wird nach allen anderen Update-Methoden aufgerufen. Sie wird hauptsächlich für Funktionen verwendet die nach all den Update-Methoden aufgerufen werden soll z.b.: Für die Kameraführung, da sich Objekte in der UpdateMethode bewegt haben können.
 \subsection{Weitere bereitgestellten Funktionen}
-Unity stellt ebenso wichtige Funktionen für die Spielentwicklung bereit, unter anderem wird Physik und Kollisionen bereits von Unity bereitgestellt, müssen aber vom Entwickler auf seinen Wunsch angepasst werden. Auch für die Bewegungsberechungen wird von Unity schon viel bereitgestellt. Zum Beispiel die "Vector2"- Funktion. Diese Funktion beschreibt wie man einen 2 Dimensionalen Vektor berechnet. 
+Unity stellt ebenso wichtige Funktionen für die Spielentwicklung bereit, unter anderem wird Physik und Kollisionen bereits von Unity bereitgestellt, müssen aber vom Entwickler auf seinen Wunsch angepasst werden. Auch für die Bewegungsberechnungen wird von Unity schon viel bereitgestellt. Zum Beispiel die "Vector2"- Funktion. Diese Funktion beschreibt wie man einen 2-Dimensionalen Vektor berechnet. 
 
 \section{GUI}
+\def \currentAuthor {Lukas Vogel}
 Das Graphical User Interface des Spiels wurde sehr einfach gehalten, da es sich um eine Prototyp handelt.
 \subsection{Hauptmenü}
 Das Hauptmenü besteht aus einem Text und zwei Buttons, zu sehen in Abb.\ref{Mainmenu}. Damit das Menü das gezeigte Aussehen hat sind folgende Arbeitsschritte zu machen:
@@ -464,7 +484,7 @@ Application.Quit();
 }
 
 \end{lstlisting}
-Die Methode ’LevelsMenu’ wechselt die Szene vom Hauptmenü des Spiels zur Szene ’LevelMenu’. Dies wird mit der Methode ’Load Scene(1)’ gemacht. Die Zahl 1, die als Parameter mit gegeben wird, steht für den Index des Levels Menüs welcher in den ’Build Settings’ (Abb. \ref{BuildSettings) festgelegt werden kann. Die Methode ’quitGame()’ schließt die gesamte Applikation.
+Die Methode ’LevelsMenu’ wechselt die Szene vom Hauptmenü des Spiels zur Szene ’LevelMenu’. Dies wird mit der Methode ’Load Scene(1)’ gemacht. Die Zahl 1, die als Parameter mit gegeben wird, steht für den Index des Levels Menüs welcher in den ’Build Settings’ (Abb. \ref{BuildSettings}) festgelegt werden kann. Die Methode ’quitGame()’ schließt die gesamte Applikation.
 \begin{figure}[H]
 	\includegraphics[width=10cm]{images/BuildSettings.png}
 	\caption{Ausschnitt der Build Settings des Unity-Editors}
@@ -476,7 +496,6 @@ Ist das Skript abgespeichert, wird es als Erstes dem Empty-Objekt als Komponente
 	\caption{Einstellungen der 'Button' Komponente für den Levels-Button im Hauptmenü}
 	\label{onClick}
 \end{figure}
-
 \subsection{Level-Menü}
 Nun da das Hauptmenü abgeschlossen ist kann das Level-Menü entwickelt werden. Dieses zeigt alle vorhandenen Levels an und ermöglicht es, sie zu starten.
 Auch hier wird als Erstes wieder ein Panel-Objekt erstellt, welches den Hintergrund der Szene darstellt. Sobald dies erledigt ist, wird ein Text-Objekt, welches die Überschrift der Szene mit dem Text ’Levels’ erstellt und in die linke obere Ecke gesetzt. Nun werden die Buttons erzeugt, als erstes jene für die jeweiligen Levels. Die Buttons für die Level haben die Maße eines Quadrats bekommen, in ihnen wird lediglich die Zahl, die das jeweilige Level repräsentiert gezeigt (zum Beispiel: 01). Die Buttons verhalten sich vom Farbwechsel her genau wie die des Hauptmenüs. Insgesamt wurden vier dieser Level-Buttons erstellt. Des Weiteren ist es noch wichtig dem Benutzer eine Möglichkeit zu bieten wieder zurück ins Hauptmenü zu gelangen. Dies wurde mittels eines ’Back-Buttons’ realisiert. Dieser wurde den Buttons, in Form und Verhalten der Buttons, des Hauptmenüs nachempfunden. Zu guter Letzt wurde noch ein Textfeld erstellt, dass den Benutzer darauf hinweist das noch weitere Levels in Zukunft kommen werden. Das fertige Level-Menü ist in Abbildung \ref{Levelmenu} veranschaulicht.
@@ -526,7 +545,7 @@ SceneManager.LoadScene(0);
 \end{lstlisting}
 Die in \cref{code:LevelMenu-Skript} gezeigten Methoden verwenden alle die Methode ’LoadScene()’ der Unterschied zwischen ihnen liegt jedoch darin, dass jede von ihnen auf eine andere Szene leitet.
 
-\section{Pause-Menü}
+\subsection{Pause-Menü}
 Damit der Benutzer auch innerhalb eines Levels das Spiel beenden oder auch stoppen kann wurde das Pause Menü entwickelt. Es funktioniert in jedem Level exakt gleich, deswegen wird es nur einmal beschrieben.
 Der Spieler soll durch das Betätigen der Escape-Taste das Spiel anhalten können, sodass sich die Spielfigur nicht mehr bewegt. Zusätzlich soll er die Optionen haben das Spiel wieder fortzuführen oder zurück ins Hauptmenü zu gelangen.
 Als Erstes wird ein Canvas-Objekt im jeweiligen Level erstellt. Im ’Inspector’ rechts muss sichergestellt werden, dass bei der Komponente ’Canvas’ im Canvas-Objekt die Eigenschaft ’Render Mode’ auf ’Screen Space - Overlay’ gesetzt wird und bei ’Pixel Perfect’ der Hacken gesetzt ist, zu sehen in Abbildung \ref{CanvasPause}.
@@ -631,18 +650,25 @@ Zu guter Letzt ist noch die Methode des Hauptmenü-Buttons zu sehen, welche ihm 
 \end{figure}
 
 \section{Leveldesign}
-\subsection{Player}
-Das Level Design ist durch Unity sehr einfach gestaltet. Alle verwenden Graphiken sind nur als Platzhalter verwendet worden.
+In Unity werden die Einzelnen Level als verschieden Szenen dargestellt.
+
 \begin{figure}[H]
 	\includegraphics[height=5cm]{images/Ground.png}
 	\caption{Hierarchie der Ground Szene}
+	\label{hierarchieGround}
 \end{figure}
+In der Abbildung \ref{hierarchieGround} wird die Hierarchie der Szene dargestellt. Sie stellt alle Objekte der jeweiligen Szene dar. 
+\subsection{Player}
+Das Level Design ist durch Unity sehr einfach gestaltet. Alle verwenden Graphiken sind nur als Platzhalter verwendet worden.
+
+
 Für den Player wurde ein Cube-Objekt benutzt.
 \begin{figure}[H]
 	\includegraphics{images/Player.png}
 	\caption{Komponenten des Player-Objekts}
+	\label{PlayerKomponenten}
 \end{figure}
-Der Player besteht aus mehreren Komponenten. Unter anderem der Box Collider 2D, welcher für die Kollisionen zuständig ist. Der Box Collider muss auf die Größe des Players angepasst werden.
+Der Player besteht aus mehreren Komponenten, welche in Abb. \ref{PlayerKomponenten} zu sehen sind. Unter anderem der Box Collider 2D, welcher für die Kollisionen zuständig ist. Der Box Collider muss auf die Größe des Players angepasst werden.
 \begin{figure}[H]
 	\includegraphics[width=15cm]{images/SpriteRenderer.png}
 	\caption{Sprite Renderer Komponente von Player}
@@ -657,8 +683,9 @@ Ein weiterer Faktor zum Sehen des Levels ist die Kamera. Wichtig ist hier, dass 
 Bei den LevelObjects handelt es sich um Objekte die Im Level vorkommen, wie der Boden oder Wände. Hierzu werden einzelne Cube-Objekte erschaffen und diese zu Gruppe verbunden. In der Gruppe wird dann der Box Collider 2D hinzugefügt, damit die Objekte eine Kollision mit dem Spieler haben. Auch aber das Ziel zählt unter LevelObjects, wie hier eine Kiste als Platzhalter. Bei der Kiste wurde nur noch ein Skript beigehängt, welches dafür sorgt, dass wenn der Spieler das Ziel erreicht, er zurück zum Level Menü kommt.
 \subsection{Falldetector}
 Bei dem Falldetector handelt es sich um eine unsichtbares Objekt, welches ebenso einen Box Collider hat. Das Skript, dass dem Player angehängt ist, erkennt ob er dieses Objekt berührt und setzt den Spieler auf die Startposition zurück.
-
+\newpage
 \section{Spieler}
+\def \currentAuthor {Michael Leitner}
 Der Spieler steuert mehrere spielbare Charaktere im Verlauf eines Levels. Damit aber auch die Eingaben des Spielers verwertet werden, werden Skripte benötigt, die diese eingaben auswerten und verwerten. Diese Aufgabe wird von dem PlayerController Skript übernommen. 
 \subsection{PlayerController}
 Damit der Charakter überhaupt Bewegungen ausführen kann, wurde ihm ein Rigidbody2D-
@@ -742,7 +769,7 @@ Bei dem Skript wird ähnlich wie bei dem PlayerController-Skript(Erkennen ob Pla
 	\caption{Tür geöffnet}
 \end{figure}
 
-\section{TimeRift}
+\section{Time Rift}
 Das Time Rift-Prinzip ist die grundlegende Funktion in diesem Projekt. Während des ersten Durchlaufes des Spielers, werden in jedem Frame die Koordinaten des Charakters gespeichert.
 \begin{lstlisting}[language={[Sharp]C}, caption=TimeRift-Script]
 void Update () {
@@ -801,8 +828,8 @@ Damit im zweiten Durchlauf des Levels, die erste Spielfigur dieselben Bewegungen
 \section{Systemtests} 
 \subsection{Einführung}
 Nachfolgend sind vier tabellarisch dargestellte Testfälle beschrieben, welche grundlegende Funktionen des Projekts Darstellen und deren Funktionalität gewährleisten sollen.
-
 \subsection{Testfälle}
+\def \currentAuthor {Lukas Vogel}
 \begin{table}
 	
 \renewcommand{\arraystretch}{1.5}
@@ -923,7 +950,8 @@ Nachfolgend sind vier tabellarisch dargestellte Testfälle beschrieben, welche g
 	\end{tabular} 
 	\caption{Testfall 2: Levelabschluss}
 \end{table}
-
+\newpage
+\def \currentAuthor {Michael Leitner}
 \begin{table}
 
 	\renewcommand{\arraystretch}{1.5}
@@ -1035,6 +1063,7 @@ Nachfolgend sind vier tabellarisch dargestellte Testfälle beschrieben, welche g
 
 
 \chapter{Projektevaluation}
+\def \currentAuthor {Lukas Vogel}
 \section{Arbeitsaufwand}
 Während der Bearbeitung der Diplomarbeit, lernten wir schnell, dass wir den Arbeitsaufwand des Projektes unterschätzt hatten, am besten wäre es daher, wenn man sich während den verschiedenen Ferien mindestens für mehrere Tage getroffen hätte und dann intensiv gearbeitet hätte. Schlussendlich ist das Projekt zwar trotzdem fertiggestellt worden und es erfüllt auch die gewünschten Anforderungen, jedoch war so viel mehr Arbeit zusätzlich zum normalen Schulalltag nötig.
 \section{Zusammenarbeit}
