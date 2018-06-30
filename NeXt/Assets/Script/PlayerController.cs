@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
+   
     public float maxSpeed = 10f;
     public float jumpForce = 350f;
     bool grounded = false;
@@ -12,6 +13,7 @@ public class PlayerController : MonoBehaviour {
     float groundRadius = 0.2f;
     public LayerMask whatIsGround;
     public Vector2 respawnpoint;
+    private bool activePlayer;
 	// Use this for initialization
 	void Start () {
         respawnpoint = transform.position;
@@ -23,8 +25,11 @@ public class PlayerController : MonoBehaviour {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
 
         float move = Input.GetAxis("Horizontal");
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(move * maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
+        if (activePlayer)
+        {
+            Rigidbody2D rb = GetComponent<Rigidbody2D>();
+            rb.velocity = new Vector2(move * maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
+        }
 
         if (move > 0 && !faceingRight)
             Flip();
@@ -34,9 +39,12 @@ public class PlayerController : MonoBehaviour {
 
     void Update()
     {
-        if(grounded && Input.GetKeyDown(KeyCode.Space))
+        if (activePlayer)
         {
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
+            if (grounded && Input.GetKeyDown(KeyCode.Space))
+            {
+                GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
+            }
         }
     }
 
@@ -49,6 +57,11 @@ public class PlayerController : MonoBehaviour {
         theScale.x *= -1;
 
         transform.localScale = theScale;
+    }
+
+    public void setActivePlayer(bool active)
+    {
+        this.activePlayer = active;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
