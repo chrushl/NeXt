@@ -77,18 +77,15 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
-    m_PVRFilterTypeDirect: 0
-    m_PVRFilterTypeIndirect: 0
-    m_PVRFilterTypeAO: 0
+    m_PVRFiltering: 0
     m_PVRFilteringMode: 1
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
     m_PVRFilteringGaussRadiusAO: 2
-    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
-    m_PVRFilteringAtrousPositionSigmaIndirect: 2
-    m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -110,8 +107,6 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
-    debug:
-      m_Flags: 0
   m_NavMeshData: {fileID: 0}
 --- !u!1001 &3443940
 Prefab:
@@ -859,7 +854,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4671875828962536, guid: 81baac46b0ad3204b82aeab6f8f51261, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 4671875828962536, guid: 81baac46b0ad3204b82aeab6f8f51261, type: 2}
       propertyPath: m_LocalPosition.z
@@ -918,7 +913,12 @@ Prefab:
     - target: {fileID: 114303619817371202, guid: 81baac46b0ad3204b82aeab6f8f51261,
         type: 2}
       propertyPath: timer
-      value: 200
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 20422339189804018, guid: 81baac46b0ad3204b82aeab6f8f51261,
+        type: 2}
+      propertyPath: orthographic size
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 81baac46b0ad3204b82aeab6f8f51261, type: 2}
@@ -1010,7 +1010,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4025979611717114, guid: 09cfd679c4387b247aaa9166b9d99726, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -12.86
+      value: -7.02
       objectReference: {fileID: 0}
     - target: {fileID: 4025979611717114, guid: 09cfd679c4387b247aaa9166b9d99726, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1131,7 +1131,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4685195707148198, guid: 12e7e048ebfaad943af790603ddf9963, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.78218853
+      value: -0.19818854
       objectReference: {fileID: 0}
     - target: {fileID: 4685195707148198, guid: 12e7e048ebfaad943af790603ddf9963, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3200,7 +3200,6 @@ SpriteRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3216,7 +3215,6 @@ SpriteRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
