@@ -25,16 +25,21 @@ public class PressurePlate : MonoBehaviour {
         float step = speed * Time.deltaTime;
         foreach (GameObject player in players)
         {
-            if(player.GetComponent<PlayerController>().getActivePlayer())
+            if ((Plate.transform.position - player.transform.position).magnitude < 1.5f)
             {
-                if ((Plate.transform.position - player.transform.position).magnitude < 1.5f)
+                Debug.Log("Open normal");
+                Door.transform.position = Vector3.MoveTowards(Door.transform.position, new Vector3(oldPos.x + moveOnX, oldPos.y + moveOnY, Door.transform.position.z), step);
+            }
+            else
+            {
+                if(player.GetComponent<PlayerController>().getActivePlayer() && ((Plate.transform.position - player.transform.position).magnitude < 1.5f))
                 {
-                    Debug.Log("test");
-                    Door.transform.position = Vector3.MoveTowards(Door.transform.position, new Vector3(oldPos.x + moveOnX, oldPos.y + moveOnY, Door.transform.position.z), step);
+                    Debug.Log("close");
+                    Door.transform.position = Vector3.MoveTowards(Door.transform.position, oldPos, step);
                 }
-                else
+                else if (!player.GetComponent<PlayerController>().getActivePlayer() && ((Plate.transform.position - player.transform.position).magnitude < 1.5f))
                 {
-                    Debug.Log("else");
+                    Debug.Log("close 2");
                     Door.transform.position = Vector3.MoveTowards(Door.transform.position, oldPos, step);
                 }
             }

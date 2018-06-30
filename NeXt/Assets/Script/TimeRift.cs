@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TimeRift : MonoBehaviour {
@@ -89,7 +90,16 @@ public class TimeRift : MonoBehaviour {
 
         if(timer <= 0.0f)
         {
-            restart();
+            if ((playerCount + 1) > (players.Length - 1))
+            {
+                SceneManager.LoadScene(0);
+            }
+            else
+            {
+
+                restart();
+            }
+            
         }
     }
 
