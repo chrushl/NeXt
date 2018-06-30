@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TimeRift : MonoBehaviour {
 
@@ -9,6 +10,8 @@ public class TimeRift : MonoBehaviour {
     public GameObject Camera;
     public GameObject[] players;
     public Bewegungsspeicher movementSave;
+    public float timer;
+    public Text timerText;
     private ArrayList restartMovementSave = new ArrayList();
     private int count = 0;
     private float posX = 0;
@@ -16,10 +19,13 @@ public class TimeRift : MonoBehaviour {
     private int playerCount = 0;
     private int restartCount = 0;
     private int activePlayer = 0;
+    private float timerValue;
+
 
     // Use this for initialization
     void Start ()
     {
+        timerValue = timer;
         int counter = 0;
         foreach (GameObject player in players)
         {
@@ -62,6 +68,9 @@ public class TimeRift : MonoBehaviour {
             }
             count++;
         }
+        timer = timer - Time.deltaTime;
+        timerText.text = ((int)timer).ToString();
+        
         movementSave.addBewegung(new Bewegung(new Koordinate(posX, posY), new Koordinate(players[playerCount].transform.position.x, players[playerCount].transform.position.y)));
         posX = players[playerCount].transform.position.x;
         posY = players[playerCount].transform.position.y;
@@ -77,10 +86,16 @@ public class TimeRift : MonoBehaviour {
                 restart();
             }
         }
+
+        if(timer <= 0.0f)
+        {
+            restart();
+        }
     }
 
     private void restart()
     {
+        timer = timerValue;
         Camera.transform.position = new Vector3(0, 0);
         restartMovementSave.Add(movementSave);
         posX = 0;
