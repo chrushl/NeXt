@@ -64,6 +64,11 @@ public class PlayerController : MonoBehaviour {
         this.activePlayer = active;
     }
 
+    public bool getActivePlayer()
+    {
+        return activePlayer;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Falldetector")

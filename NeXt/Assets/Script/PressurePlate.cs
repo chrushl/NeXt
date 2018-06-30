@@ -22,12 +22,21 @@ public class PressurePlate : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
-        foreach(GameObject player in players)
+        float step = speed * Time.deltaTime;
+        foreach (GameObject player in players)
         {
-            if ((Plate.transform.position - player.transform.position).magnitude < 1.0f)
+            if(player.GetComponent<PlayerController>().getActivePlayer())
             {
-                float step = speed * Time.deltaTime;
-                Door.transform.position = Vector3.MoveTowards(Door.transform.position, new Vector3(oldPos.x + moveOnX, oldPos.y + moveOnY, Door.transform.position.z), step);
+                if ((Plate.transform.position - player.transform.position).magnitude < 1.5f)
+                {
+                    Debug.Log("test");
+                    Door.transform.position = Vector3.MoveTowards(Door.transform.position, new Vector3(oldPos.x + moveOnX, oldPos.y + moveOnY, Door.transform.position.z), step);
+                }
+                else
+                {
+                    Debug.Log("else");
+                    Door.transform.position = Vector3.MoveTowards(Door.transform.position, oldPos, step);
+                }
             }
         }
     }
