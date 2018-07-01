@@ -12,6 +12,8 @@ public class PressurePlate : MonoBehaviour {
     private bool isPressed = false;
     public float speed;
     private Vector3 oldPos;
+    private bool activePlate;
+    private int count;
 
     void Start()
     {
@@ -22,26 +24,32 @@ public class PressurePlate : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
+        count = -1;
         float step = speed * Time.deltaTime;
         foreach (GameObject player in players)
         {
             if ((Plate.transform.position - player.transform.position).magnitude < 1.5f)
             {
-                Debug.Log("Open normal");
+                Debug.Log("Open");
+                activePlate = true;
                 Door.transform.position = Vector3.MoveTowards(Door.transform.position, new Vector3(oldPos.x + moveOnX, oldPos.y + moveOnY, Door.transform.position.z), step);
             }
             else
             {
-                if(player.GetComponent<PlayerController>().getActivePlayer() && ((Plate.transform.position - player.transform.position).magnitude < 1.5f))
+                if(!(player.GetComponent<PlayerController>().getActivePlayer() && ((Plate.transform.position - player.transform.position).magnitude < 1.5f)) && !activePlate)
                 {
                     Debug.Log("close");
                     Door.transform.position = Vector3.MoveTowards(Door.transform.position, oldPos, step);
                 }
-                else if (!player.GetComponent<PlayerController>().getActivePlayer() && ((Plate.transform.position - player.transform.position).magnitude < 1.5f))
+                else if(count == -1)
                 {
-                    Debug.Log("close 2");
-                    Door.transform.position = Vector3.MoveTowards(Door.transform.position, oldPos, step);
+                    activePlate = false;
                 }
+            }
+
+            if((Plate.transform.position - player.transform.position).magnitude < 1.5f)
+            {
+                count++;
             }
         }
     }

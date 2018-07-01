@@ -52,6 +52,9 @@ public class TimeRift : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
+        timer = timer - Time.deltaTime;
+        timerText.text = ((int)timer).ToString();
+
         if (restartMovementSave.Count >= 1)
         {
             int restartedPlayer = 0;
@@ -69,12 +72,11 @@ public class TimeRift : MonoBehaviour {
             }
             count++;
         }
-        timer = timer - Time.deltaTime;
-        timerText.text = ((int)timer).ToString();
         
         movementSave.addBewegung(new Bewegung(new Koordinate(posX, posY), new Koordinate(players[playerCount].transform.position.x, players[playerCount].transform.position.y)));
         posX = players[playerCount].transform.position.x;
         posY = players[playerCount].transform.position.y;
+
         if(Input.GetKeyDown(KeyCode.Return))
         {
             if((playerCount + 1) > (players.Length -1))
@@ -96,7 +98,7 @@ public class TimeRift : MonoBehaviour {
             }
             else
             {
-
+                Camera.GetComponent<CameraController>().setPlayer();
                 restart();
             }
             
