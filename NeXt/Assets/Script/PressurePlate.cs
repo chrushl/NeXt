@@ -30,7 +30,6 @@ public class PressurePlate : MonoBehaviour {
         {
             if ((Plate.transform.position - player.transform.position).magnitude < 1.5f)
             {
-                Debug.Log("Open");
                 activePlate = true;
                 Door.transform.position = Vector3.MoveTowards(Door.transform.position, new Vector3(oldPos.x + moveOnX, oldPos.y + moveOnY, Door.transform.position.z), step);
             }
@@ -38,7 +37,6 @@ public class PressurePlate : MonoBehaviour {
             {
                 if(!(player.GetComponent<PlayerController>().getActivePlayer() && ((Plate.transform.position - player.transform.position).magnitude < 1.5f)) && !activePlate)
                 {
-                    Debug.Log("close");
                     Door.transform.position = Vector3.MoveTowards(Door.transform.position, oldPos, step);
                 }
                 else if(count == -1)

@@ -26,6 +26,7 @@ public class PauseMenu : MonoBehaviour {
    public void Resume ()
     {
         PauseMenuUI.SetActive(false);
+        Debug.Log("Weiter");
         Time.timeScale = 1f;
         isPaused = false;
     }
@@ -33,12 +34,14 @@ public class PauseMenu : MonoBehaviour {
    private void Pause()
     {
         PauseMenuUI.SetActive(true);
+        Debug.Log("Pause");
         Time.timeScale = 0f;
         isPaused = true;
     }
 
     public void MainMenu ()
     {
+        Resume();
         SceneManager.LoadScene(0);
     }
 }

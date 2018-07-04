@@ -50,9 +50,9 @@ public class TimeRift : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update ()
+    void FixedUpdate ()
     {
-        timer = timer - Time.deltaTime;
+        timer = timer - Time.fixedDeltaTime;
         timerText.text = ((int)timer).ToString();
 
         if (restartMovementSave.Count >= 1)
